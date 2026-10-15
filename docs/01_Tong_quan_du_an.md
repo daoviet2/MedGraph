@@ -37,25 +37,10 @@ Mục tiêu chính là **portfolio**: cho nhà tuyển dụng thấy bạn hiể
 | Biết hỏi thêm và biết từ chối xếp hạng | Điểm top-1 và top-2 sát nhau thì hỏi câu phân biệt thay vì đoán |
 | Cạnh có nguồn gốc và độ tin cậy | provenance (curated, auto_extracted, reviewed) ảnh hưởng trọng số ranking |
 
-
-
-|  | MedGraph |  
-|---|---|---|
-| Bản chất suy luận | Suy luận ngược từ triệu chứng ra bệnh ứng viên, mang tính xác suất, cần xếp hạng | Truy xuất và lập luận trên điều luật, mang tính quy phạm |
-| Quan hệ trong graph | Triệu chứng, Bệnh, Xét nghiệm, Thuốc, Chống chỉ định | Luật, Chương/Điều/Khoản, sửa đổi/thay thế, dẫn chiếu |
-| Thách thức dữ liệu | Alias tiếng Việt, ánh xạ mã chuẩn (UMLS, ICD) | Hiệu lực theo thời gian, văn bản thay thế |
-| Rủi ro | An toàn người bệnh, red-flag | Trích sai hoặc bịa điều luật |
-| Đánh giá | Top-k accuracy trên case bệnh | Độ chính xác trích dẫn điều/khoản |
-
-Trong README nên nhấn vào những gì đặc thù của y khoa: xếp hạng chẩn đoán phân biệt, red-flag, linking tiếng Việt và phần đánh giá baseline vs GraphRAG.
-
 ## 4. Phạm vi MVP
 
 Chỉ làm **nhóm bệnh hô hấp** (khoảng 30 đến 40 bệnh): viêm phổi, lao phổi, hen, COPD, viêm phế quản, COVID-19, cúm, GERD gây ho, thuyên tắc phổi, tràn khí màng phổi... Ví dụ "ho kéo dài + sốt nhẹ + đau ngực" rơi đúng vào nhóm này nên demo rất thuyết phục. Phần thuốc, tác dụng phụ và chống chỉ định để làm "giai đoạn 2". Một vertical hẹp làm kỹ có giá trị hơn một graph rộng nhưng nông.
 
-![Hình 1. Pipeline MedGraph v2 (xanh lá: học từ Lawgic, cam: cải tiến riêng, đỏ: an toàn)](img/pipeline_v2.png)
-
-*Hình 1. Pipeline MedGraph v2 (xanh lá: học từ Lawgic, cam: cải tiến riêng, đỏ: an toàn)*
 
 ## 5. Nguyên tắc thiết kế
 

@@ -20,9 +20,7 @@
 | 5 | Hoàn thiện | UI 3 tab, deploy, README có bảng năng lực và bằng chứng, video demo 2 phút |
 | Mở rộng | Tùy chọn (tuần 6 / giai đoạn 2) | Câu hỏi gợi ý bằng information gain, myth-check, multi-hop có thuốc |
 
-![Hình 1. Biểu đồ Gantt v2 (ngày bắt đầu chỉ là gợi ý, hãy điều chỉnh theo lịch của bạn)](img/gantt.png)
 
-*Hình 1. Biểu đồ Gantt v2 (ngày bắt đầu chỉ là gợi ý, hãy điều chỉnh theo lịch của bạn)*
 
 ## 3. Chi tiết theo tuần
 
