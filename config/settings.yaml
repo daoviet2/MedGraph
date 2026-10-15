@@ -1,0 +1,14 @@
+# Cấu hình không bí mật cho MedGraph (P1: Hợp đồng, Dữ liệu và Graph)
+
+# Đường dẫn thư mục
+data_dir: "data"
+seed_dir: "data/seed"
+aliases_dir: "data/aliases_vi"
+cache_dir: ".cache"
+
+# Cấu hình nạp dữ liệu (Loader)
+batch_size: 500
+
+# Cấu hình kết nối Neo4j
+neo4j_max_connection_lifetime: 3600
+neo4j_max_connection_pool_size: 50
