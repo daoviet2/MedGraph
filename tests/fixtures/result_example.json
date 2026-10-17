@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "abstained": false,
+  "urgency": "SEE_DOCTOR_SOON",
+  "red_flags": [],
+  "entities": [
+    {
+      "text": "ho dai dẳng",
+      "id": "HP:0012735",
+      "type": "symptom",
+      "negated": false,
+      "duration_days": 21,
+      "severity": null,
+      "value": null,
+      "unit": null
+    }
+  ],
+  "likely": [
+    {
+      "disease_id": "ICD10:A15",
+      "name_vi": "Lao phổi",
+      "likelihood": 0.82,
+      "danger_level": 3,
+      "cant_miss": false,
+      "matched_symptoms": [
+        "HP:0012735"
+      ],
+      "provenance_mix": {
+        "curated": 2
+      },
+      "claims": [
+        {
+          "text": "Ho kéo dài trên 3 tuần là triệu chứng nghi ngờ lao phổi.",
+          "citation": {
+            "chunk_id": "chunk_doc_tb_01",
+            "source_id": "SRC:who_tb_guideline",
+            "supported": true
+          }
+        }
+      ]
+    }
+  ],
+  "cant_miss": [
+    {
+      "disease_id": "ICD10:I26",
+      "name_vi": "Thuyên tắc phổi",
+      "likelihood": 0.12,
+      "danger_level": 3,
+      "cant_miss": true,
+      "matched_symptoms": [],
+      "provenance_mix": {},
+      "claims": []
+    }
+  ],
+  "follow_up_questions": [
+    "Bạn có ho ra máu không?"
+  ],
+  "subgraph": {
+    "nodes": [
+      {
+        "id": "HP:0012735",
+        "label": "Symptom",
+        "name": "ho dai dẳng",
+        "properties": {}
+      },
+      {
+        "id": "ICD10:A15",
+        "label": "Disease",
+        "name": "Lao phổi",
+        "properties": {}
+      }
+    ],
+    "edges": [
+      {
+        "source": "HP:0012735",
+        "target": "ICD10:A15",
+        "type": "INDICATES",
+        "weight": 0.85,
+        "properties": {}
+      }
+    ]
+  },
+  "disclaimer": "MedGraph là công cụ tham khảo và giáo dục, không phải công cụ chẩn đoán và không thay thế bác sĩ. Khi có dấu hiệu nguy hiểm hoặc cấp cứu, hãy đến ngay cơ sở y tế gần nhất hoặc gọi cấp cứu (115 tại Việt Nam)."
+}
