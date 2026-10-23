@@ -75,3 +75,39 @@ def load_schema_cypher_statements(file_path: Path | None = None) -> list[str]:
     raw_text = "\n".join(cleaned_lines)
     statements = [stmt.strip() for stmt in raw_text.split(";") if stmt.strip()]
     return statements
+
+
+def apply_schema(driver: object, statements: list[str] | None = None) -> dict[str, int]:
+    """Áp dụng các ràng buộc và index từ schema.cypher lên Neo4j database (idempotent).
+
+    Args:
+        driver: Đối tượng neo4j.Driver đã kết nối.
+        statements: Danh sách câu lệnh Cypher. Nếu None, nạp từ load_schema_cypher_statements().
+
+    Returns:
+        Dict chứa thống kê số câu lệnh đã chạy, số constraints và indexes hiện có.
+    """
+    from neo4j import Driver
+
+    if not isinstance(driver, Driver):
+        raise TypeError(f"driver phải là instance của neo4j.Driver, nhận: {type(driver)}")
+
+    stmts = statements or load_schema_cypher_statements()
+
+    with driver.session() as session:
+        for stmt in stmts:
+            session.run(stmt)
+
+        # Đếm số constraint hiện tại
+        constraints_result = session.run("SHOW CONSTRAINTS")
+        constraint_count = len(list(constraints_result))
+
+        # Đếm số index hiện tại
+        indexes_result = session.run("SHOW INDEXES")
+        index_count = len(list(indexes_result))
+
+    return {
+        "statements_executed": len(stmts),
+        "constraints_count": constraint_count,
+        "indexes_count": index_count,
+    }
