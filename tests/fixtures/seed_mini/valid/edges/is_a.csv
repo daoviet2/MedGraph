@@ -1,0 +1,2 @@
+child_id,parent_id,source_id,provenance,evidence_count,confidence,notes
+HP:0002094,HP:0012735,SRC:WHO_2022,curated,1,1.0,Quan hệ phân loại triệu chứng

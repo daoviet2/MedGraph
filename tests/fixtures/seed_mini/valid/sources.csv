@@ -1,0 +1,4 @@
+id,title,publisher,year,url,license,effective_from,effective_to,status,superseded_by,review_status,notes
+SRC:BYT_2020,Hướng dẫn chẩn đoán viêm phổi,Bộ Y tế,2020,https://kcb.vn/doc1.html,CC-BY-4.0,2020-01-01,,active,,approved,Nguồn chuẩn
+SRC:WHO_2022,WHO Pneumonia Guidelines,WHO,2022,https://who.int/doc2.html,CC-BY-4.0,2022-01-01,,active,,approved,WHO guideline
+SRC:BYT_2015,Hướng dẫn cũ 2015,Bộ Y tế,2015,https://kcb.vn/old.html,CC-BY-4.0,2015-01-01,2019-12-31,superseded,SRC:BYT_2020,approved,Đã hết hiệu lực

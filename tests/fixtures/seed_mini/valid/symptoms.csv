@@ -1,0 +1,4 @@
+id,name_en,name_vi,aliases_vi,is_red_flag,review_status,notes
+HP:0012735,Cough,Ho,ho khan;ho có đờm,false,approved,Triệu chứng phổ biến
+HP:0001945,Fever,Sốt,sốt nhẹ;sốt cao,false,approved,Triệu chứng viêm
+HP:0002094,Dyspnea,Khó thở,hụt hơi;thở gấp,true,approved,Dấu hiệu cảnh báo

@@ -1,0 +1,2 @@
+disease_id,lab_id,role,source_id,provenance,evidence_count,confidence,notes
+ICD10:J18,LAB:xray_chest,confirmatory,SRC:BYT_2020,curated,2,1.0,X-quang chẩn đoán xác định viêm phổi

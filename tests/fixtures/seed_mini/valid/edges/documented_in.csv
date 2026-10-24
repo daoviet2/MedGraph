@@ -1,0 +1,2 @@
+disease_id,source_doc_id,section,source_id,provenance,evidence_count,confidence,notes
+ICD10:J18,SRC:BYT_2020,Chẩn đoán xác định,SRC:BYT_2020,curated,1,1.0,Tài liệu hướng dẫn điều trị

@@ -1,0 +1,2 @@
+old_id,new_id,effective_from,source_id,provenance,evidence_count,confidence,notes
+SRC:BYT_2015,SRC:BYT_2020,2020-01-01,SRC:BYT_2020,curated,1,1.0,Tài liệu mới thay thế bản cũ

@@ -1,0 +1,2 @@
+disease_id,other_id,distinguishing_features,source_id,provenance,evidence_count,confidence,notes
+ICD10:J18,ICD10:J44,Viêm phổi sốt cấp tính và thâm nhiễm mới trên X-quang,SRC:BYT_2020,curated,1,0.9,Chẩn đoán phân biệt

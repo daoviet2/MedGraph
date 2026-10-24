@@ -1,0 +1,2 @@
+disease_id,risk_id,weight,source_id,provenance,evidence_count,confidence,notes
+ICD10:J44,RF:smoking,0.9,SRC:WHO_2022,curated,2,1.0,Hút thuốc làm tăng nguy cơ COPD

@@ -1,0 +1,4 @@
+symptom_id,disease_id,weight,is_cardinal,source_id,provenance,evidence_count,confidence,notes
+HP:0012735,ICD10:J18,0.9,true,SRC:BYT_2020,curated,2,1.0,Triệu chứng cốt lõi viêm phổi
+HP:0001945,ICD10:J18,0.8,false,SRC:BYT_2020,curated,1,0.95,Sốt trong viêm phổi
+HP:0002094,ICD10:J44,0.95,true,SRC:WHO_2022,curated,3,1.0,Triệu chứng cốt lõi COPD
