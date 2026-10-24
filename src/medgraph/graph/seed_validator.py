@@ -330,7 +330,7 @@ def validate_seed_bundle(
             )
 
     # 5. Kiểm tra bệnh: bắt buộc có cạnh INDICATES và cảnh báo nếu thiếu triệu chứng cốt lõi
-    if is_active("diseases") and is_active("indicates") and bundle.diseases:
+    if is_active("diseases") and is_active("indicates") and bundle.diseases and bundle.indicates:
         # Nhóm triệu chứng theo bệnh
         disease_to_indicates = {}
         for edge in bundle.indicates:
