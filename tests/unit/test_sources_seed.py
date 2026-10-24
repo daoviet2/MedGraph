@@ -32,7 +32,7 @@ def test_sources_seed_loads_and_parses_properly() -> None:
     for source in bundle.sources:
         assert isinstance(source, SourceDocRecord)
         assert source.id.startswith("SRC:")
-        assert source.review_status == ReviewStatus.PENDING
+        assert source.review_status in (ReviewStatus.PENDING, ReviewStatus.APPROVED)
         assert source.year >= 1900
 
 

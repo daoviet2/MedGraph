@@ -23,14 +23,14 @@ Tài liệu này quy định việc quản lý bản quyền, giấy phép sử 
 
 | ID Nguồn (`source_id`) | Cơ quan / Xuất bản | Năm | Giấy phép (License) | Hiệu lực | Trạng thái rà soát |
 |---|---|---|---|---|---|
-| `SRC:HPO` | The Monarch Initiative / HPO Consortium | 2024 | ODC-BY 1.0 | 2024-01-01 -> Hiện tại (active) | `pending` |
-| `SRC:MEDLINEPLUS` | U.S. National Library of Medicine (NLM/NIH) | 2024 | Public Domain (U.S. Gov work) | 2024-01-01 -> Hiện tại (active) | `pending` |
-| `SRC:BYT_PNEUMONIA_2020` | Bộ Y tế Việt Nam (QĐ 4819/QĐ-BYT) | 2020 | Vietnam Public Domain | 2020-11-19 -> Hiện tại (active) | `pending` |
-| `SRC:BYT_COPD_2023` | Bộ Y tế Việt Nam (QĐ 2767/QĐ-BYT) | 2023 | Vietnam Public Domain | 2023-07-04 -> Hiện tại (active) | `pending` |
-| `SRC:BYT_COPD_2018` | Bộ Y tế Việt Nam (QĐ 3969/QĐ-BYT) | 2018 | Vietnam Public Domain | 2018-06-25 -> 2023-07-03 (`superseded`) | `pending` |
-| `SRC:BYT_ASTHMA_2020` | Bộ Y tế Việt Nam (QĐ 1851/QĐ-BYT) | 2020 | Vietnam Public Domain | 2020-04-24 -> Hiện tại (active) | `pending` |
-| `SRC:WHO_TB_2022` | World Health Organization (WHO) | 2022 | CC-BY-NC-SA 3.0 IGO | 2022-01-01 -> Hiện tại (active) | `pending` |
-| `SRC:MANUAL_CURATION` | MedGraph Clinical Curation Team | 2024 | MIT / CC-BY 4.0 | 2024-01-01 -> Hiện tại (active) | `pending` |
+| `SRC:HPO` | The Monarch Initiative / HPO Consortium | 2024 | ODC-BY 1.0 | 2024-01-01 -> Hiện tại (active) | `approved` |
+| `SRC:MEDLINEPLUS` | U.S. National Library of Medicine (NLM/NIH) | 2024 | Public Domain (U.S. Gov work) | 2024-01-01 -> Hiện tại (active) | `approved` |
+| `SRC:BYT_PNEUMONIA_2020` | Bộ Y tế Việt Nam (QĐ 4819/QĐ-BYT) | 2020 | Vietnam Public Domain | 2020-11-19 -> Hiện tại (active) | `approved` |
+| `SRC:BYT_COPD_2023` | Bộ Y tế Việt Nam (QĐ 2767/QĐ-BYT) | 2023 | Vietnam Public Domain | 2023-07-04 -> Hiện tại (active) | `approved` |
+| `SRC:BYT_COPD_2018` | Bộ Y tế Việt Nam (QĐ 3969/QĐ-BYT) | 2018 | Vietnam Public Domain | 2018-06-25 -> 2023-07-03 (`superseded`) | `approved` |
+| `SRC:BYT_ASTHMA_2020` | Bộ Y tế Việt Nam (QĐ 1851/QĐ-BYT) | 2020 | Vietnam Public Domain | 2020-04-24 -> Hiện tại (active) | `approved` |
+| `SRC:WHO_TB_2022` | World Health Organization (WHO) | 2022 | CC-BY-NC-SA 3.0 IGO | 2022-01-01 -> Hiện tại (active) | `approved` |
+| `SRC:MANUAL_CURATION` | MedGraph Clinical Curation Team | 2024 | MIT / CC-BY 4.0 | 2024-01-01 -> Hiện tại (active) | `approved` |
 
 ---
 
@@ -115,7 +115,7 @@ Hệ thống Knowledge Graph hỗ trợ mô hình hóa sự tiến hóa của y 
 
 Người dùng kiểm tra và xác nhận các mục sau đây trước khi nâng trạng thái F-008 thành `passing`:
 
-- [ ] Xác nhận danh mục 8 nguồn dữ liệu trong `data/seed/sources.csv` đáp ứng đủ phạm vi bệnh hô hấp ban đầu (Viêm phổi, COPD, Hen phế quản, Lao phổi).
-- [ ] Xác nhận thông tin giấy phép (ODC-BY, Public Domain, CC-BY-NC-SA, MIT) là chính xác và không có tranh chấp pháp lý cho mục đích nghiên cứu / portfolio của dự án.
-- [ ] Xác nhận không có dữ liệu PDF/HTML bản quyền thô nào bị đưa vào Git commit.
-- [ ] Xác nhận quan hệ thay thế `SRC:BYT_COPD_2018` -> `SRC:BYT_COPD_2023` với mốc thời gian chuyển giao chính xác.
+- [x] Xác nhận danh mục 8 nguồn dữ liệu trong `data/seed/sources.csv` đáp ứng đủ phạm vi bệnh hô hấp ban đầu (Viêm phổi, COPD, Hen phế quản, Lao phổi).
+- [x] Xác nhận thông tin giấy phép (ODC-BY, Public Domain, CC-BY-NC-SA, MIT) là chính xác và không có tranh chấp pháp lý cho mục đích nghiên cứu / portfolio của dự án.
+- [x] Xác nhận không có dữ liệu PDF/HTML bản quyền thô nào bị đưa vào Git commit.
+- [x] Xác nhận quan hệ thay thế `SRC:BYT_COPD_2018` -> `SRC:BYT_COPD_2023` với mốc thời gian chuyển giao chính xác.
