@@ -1,0 +1,20 @@
+id,name_vi,purpose,source_id,review_status,notes
+LOINC:1988-5,Định lượng nồng độ CRP huyết thanh,Đánh giá mức độ phản ứng viêm cấp tính trong nhiễm trùng phổi,SRC:BYT_PNEUMONIA_2020,pending,Xét nghiệm hóa sinh
+LOINC:33959-8,Định lượng Procalcitonin máu,Phân biệt nhiễm khuẩn với nhiễm virus và quyết định dùng kháng sinh,SRC:BYT_PNEUMONIA_2020,pending,Chỉ điểm nhiễm khuẩn nặng
+LOINC:58410-2,Tổng phân tích tế bào máu ngoại vi (CBC),Đánh giá số lượng bạch cầu và tỷ lệ bạch cầu trung tính,SRC:BYT_PNEUMONIA_2020,pending,Xét nghiệm huyết học cơ bản
+LOINC:48065-7,Định lượng D-dimer huyết tương,Loại trừ thuyên tắc huyết khối động mạch phổi (PE),SRC:MEDLINEPLUS,pending,Xét nghiệm đông máu
+LOINC:2019-8,Khí máu động mạch (ABG),Đánh giá PaO2 PaCO2 pH máu và tình trạng suy hô hấp toan kiềm,SRC:BYT_COPD_2023,pending,Theo dõi suy hô hấp cấp
+LOINC:48421-2,Đo độ bão hòa oxy mao mạch qua da (SpO2),Theo dõi nhanh và liên tục mức độ thiếu oxy máu ngoại vi,SRC:BYT_PNEUMONIA_2020,pending,Đo sinh hiệu không xâm lấn
+LOINC:11524-6,Điện tâm đồ 12 chuyển đạo (ECG),Đánh giá dấu hiệu tăng gánh tim phải (S1Q3T3) và phân biệt nhồi máu cơ tim,SRC:MEDLINEPLUS,pending,Thăm dò điện sinh lý tim
+LOINC:6598-7,Định lượng Troponin tim độ nhạy cao,Đánh giá tổn thương hoại tử cơ tim cấp trong chẩn đoán phân biệt đau ngực,SRC:MEDLINEPLUS,pending,Hóa sinh tim mạch
+LOINC:33762-6,Định lượng NT-proBNP huyết tương,Chẩn đoán xác định và phân biệt khó thở do suy tim sung huyết,SRC:MEDLINEPLUS,pending,Chỉ điểm sinh học suy tim
+LOINC:11477-7,Nhuộm soi đờm tìm trực khuẩn kháng cồn toan (AFB),Sàng lọc trực tiếp vi khuẩn lao trong mẫu bệnh phẩm đờm,SRC:WHO_TB_2022,pending,Vi sinh vi khuẩn lao
+LOINC:89599-5,Xét nghiệm GeneXpert MTB/RIF trong đờm,Phát hiện nhanh ADN vi khuẩn lao và đột biến gen kháng Rifampicin,SRC:WHO_TB_2022,pending,Sinh học phân tử chẩn đoán lao
+LOINC:82361-7,Xét nghiệm nhanh kháng nguyên SARS-CoV-2,Chẩn đoán xác định nhanh tình trạng nhiễm virus COVID-19,SRC:MEDLINEPLUS,pending,Test nhanh virus hô hấp
+LOINC:92142-9,Xét nghiệm RT-PCR virus Cúm A/B,Phát hiện và phân nhóm chủng virus cúm mùa gây nhiễm trùng đường thở,SRC:MEDLINEPLUS,pending,Sinh học phân tử virus cúm
+LAB:xray_chest,Chụp X-quang ngực thẳng,Phát hiện tổn thương thâm nhiễm đông đặc tràn dịch tràn khí màng phổi,SRC:BYT_PNEUMONIA_2020,pending,Chẩn đoán hình ảnh cơ bản
+LAB:ct_chest,Chụp cắt lớp vi tính lồng ngực (CT ngực),Đánh giá chi tiết tổn thương mô kẽ giãn phế quản và nốt mờ khối u phổi,SRC:MEDLINEPLUS,pending,Chẩn đoán hình ảnh độ phân giải cao
+LAB:ctpa,Chụp CT mạch máu phổi có tiêm thuốc cản quang (CTPA),Tiêu chuẩn vàng xác định vị trí huyết khối thuyên tắc động mạch phổi,SRC:MEDLINEPLUS,pending,Chẩn đoán hình ảnh mạch máu
+LAB:spirometry,Đo chức năng thông khí phổi (Hô hấp ký),Đánh giá rối loạn thông khí tắc nghẽn (FEV1/FVC) và khả năng hồi phục,SRC:BYT_COPD_2023,pending,Thăm dò chức năng hô hấp
+LAB:bronchoscopy,Nội soi phế quản ống mềm,Quan sát trực tiếp niêm mạc phế quản gắp dị vật và lấy bệnh phẩm vi sinh,SRC:MEDLINEPLUS,pending,Thủ thuật nội soi can thiệp
+LAB:pleural_fluid_analysis,Chọc hút và xét nghiệm dịch màng phổi,Phân biệt dịch thấm dịch tiết theo tiêu chuẩn Light và tìm tế bào ác tính,SRC:MEDLINEPLUS,pending,Xét nghiệm sinh hóa vi sinh dịch

@@ -1,0 +1,19 @@
+id,name_vi,type,source_id,review_status,notes
+RF:smoking,Hút thuốc lá hoặc thuốc lào,Hành vi,SRC:BYT_COPD_2023,pending,Yếu tố nguy cơ hàng đầu gây COPD và ung thư phổi
+RF:passive_smoking,Tiếp xúc khói thuốc lá thụ động,Môi trường,SRC:BYT_ASTHMA_2020,pending,Kích thích đường thở làm nặng bệnh hen và viêm phế quản
+RF:dust_exposure,Tiếp xúc bụi đá và bụi silica mỏ than,Nghề nghiệp,SRC:MEDLINEPLUS,pending,Nguy cơ bệnh bụi phổi nghề nghiệp và xơ hóa phổi
+RF:biomass_fuel,Đun nấu than củi khí đốt trong nhà thông khí kém,Môi trường,SRC:BYT_COPD_2023,pending,Nguy cơ COPD ở phụ nữ nông thôn không hút thuốc
+RF:tb_contact,Tiếp xúc gần với người mắc bệnh lao phổi,Dịch tễ,SRC:WHO_TB_2022,pending,Nguy cơ lây nhiễm trực khuẩn lao trong gia đình và cộng đồng
+RF:elderly,Người cao tuổi từ 65 tuổi trở lên,Cơ địa,SRC:BYT_PNEUMONIA_2020,pending,Suy giảm đáp ứng miễn dịch và phản xạ bảo vệ đường hô hấp
+RF:infant,Trẻ nhũ nhi và trẻ nhỏ dưới 2 tuổi,Cơ địa,SRC:MEDLINEPLUS,pending,Đường thở nhỏ dễ bị tắc nghẽn phù nề khi viêm tiểu phế quản
+RF:immunodeficiency,Suy giảm miễn dịch do HIV hoặc dùng corticoid kéo dài,Bệnh nền,SRC:BYT_PNEUMONIA_2020,pending,Dễ mắc viêm phổi cơ hội và nhiễm trùng nặng
+RF:asthma_history,Tiền sử bản thân hoặc gia đình mắc hen phế quản,Tiền sử,SRC:BYT_ASTHMA_2020,pending,Cơ địa dị ứng atopy tăng đáp ứng đường thở
+RF:copd_history,Tiền sử chẩn đoán bệnh phổi tắc nghẽn mạn tính,Tiền sử,SRC:BYT_COPD_2023,pending,Nguy cơ xuất hiện đợt bùng phát cấp đe dọa toan hô hấp
+RF:gerd_history,Tiền sử bệnh trào ngược dạ dày thực quản,Tiền sử,SRC:MEDLINEPLUS,pending,Axit dịch vị kích thích nhánh thần kinh phế vị gây ho kéo dài
+RF:acei_medication,Đang điều trị bằng thuốc hạ huyết áp nhóm ức chế men chuyển ACEi,Dược lý,SRC:MANUAL_CURATION,pending,Tích tụ bradykinin gây ho khan mạn tính kháng thuốc giảm ho
+RF:immobilization,Bất động nằm lâu sau phẫu thuật lớn hoặc chấn thương,Hành vi,SRC:MEDLINEPLUS,pending,Ứ trệ tuần hoàn tĩnh mạch dẫn đến huyết khối DVT và thuyên tắc phổi
+RF:dvt_history,Tiền sử huyết khối tĩnh mạch sâu chi dưới,Tiền sử,SRC:MEDLINEPLUS,pending,Nguy cơ cục máu đông di chuyển gây thuyên tắc động mạch phổi
+RF:heart_failure,Tiền sử bệnh tim mạch hoặc suy tim sung huyết,Bệnh nền,SRC:MEDLINEPLUS,pending,Ứ huyết tuần hoàn phổi gây khó thở kịch phát và phù phổi cấp
+RF:swallowing_dysfunction,Rối loạn nuốt sau tai biến mạch máu não hoặc suy giảm ý thức,Bệnh nền,SRC:BYT_PNEUMONIA_2020,pending,Nguy cơ sặc dịch vị thức ăn vào phổi gây viêm phổi hít
+RF:bird_fancier,Tiếp xúc thường xuyên với chim cảnh và phân gia cầm,Môi trường,SRC:MEDLINEPLUS,pending,Dị nguyên hữu cơ kích thích gây viêm phổi quá mẫn
+RF:crowded_living,Môi trường sống đông đúc chật chội thông khí kém,Môi trường,SRC:WHO_TB_2022,pending,Tăng nguy cơ lây truyền các bệnh nhiễm trùng đường hô hấp

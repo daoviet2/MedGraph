@@ -1,0 +1,24 @@
+child_id,parent_id,source_id,provenance,evidence_count,confidence,review_status,notes
+HP:0031246,HP:0012735,SRC:HPO,curated,1,1.0,pending,Ho khan là một dạng ho
+HP:0031245,HP:0012735,SRC:HPO,curated,1,1.0,pending,Ho có đờm là một dạng ho
+HP:0025425,HP:0012735,SRC:HPO,curated,1,1.0,pending,Ho mạn tính kéo dài là một dạng ho
+HP:0033431,HP:0012735,SRC:HPO,curated,1,1.0,pending,Ho cơn kịch phát là một dạng ho
+HP:0025426,HP:0012735,SRC:HPO,curated,1,1.0,pending,Ho ông ổng thanh quản là một dạng ho
+HP:0002105,HP:0012735,SRC:HPO,curated,1,1.0,pending,Ho ra máu là một dạng ho
+HP:0025427,HP:0031245,SRC:HPO,curated,1,1.0,pending,Khạc đờm mủ là một dạng ho có đờm
+HP:0031249,HP:0031245,SRC:HPO,curated,1,1.0,pending,Khạc đờm thối là một dạng ho có đờm
+HP:0031250,HP:0031245,SRC:HPO,curated,1,1.0,pending,Khạc đờm bọt hồng là một dạng ho có đờm
+HP:0025440,HP:0002094,SRC:HPO,curated,1,1.0,pending,Khó thở khi nghỉ là một mức độ khó thở
+HP:0002875,HP:0002094,SRC:HPO,curated,1,1.0,pending,Khó thở khi gắng sức là một mức độ khó thở
+HP:0012764,HP:0002094,SRC:HPO,curated,1,1.0,pending,Khó thở khi nằm là một dạng khó thở tư thế
+HP:0025439,HP:0002094,SRC:HPO,curated,1,1.0,pending,Khó thở kịch phát về đêm là một dạng khó thở
+HP:0030828,HP:0030829,SRC:HPO,curated,1,1.0,pending,Thở khò khè là một loại tiếng thở bất thường
+HP:0010307,HP:0030829,SRC:HPO,curated,1,1.0,pending,Thở rít thanh quản là một loại tiếng thở bất thường
+HP:0030830,HP:0030829,SRC:HPO,curated,1,1.0,pending,Ran nổ ran ẩm là một loại tiếng thở bất thường
+HP:0030831,HP:0030829,SRC:HPO,curated,1,1.0,pending,Ran ngáy là một loại tiếng thở bất thường
+HP:0031247,HP:0100749,SRC:HPO,curated,1,1.0,pending,Đau ngực kiểu màng phổi là một dạng đau ngực
+HP:0025428,HP:0100749,SRC:HPO,curated,1,1.0,pending,Cảm giác nặng tức ngực là một dạng đau ngực
+HP:0001954,HP:0001945,SRC:HPO,curated,1,1.0,pending,Sốt cao là một mức độ sốt
+HP:0025429,HP:0001945,SRC:HPO,curated,1,1.0,pending,Sốt nhẹ là một mức độ sốt
+HP:0100763,HP:0002015,SRC:HPO,curated,1,1.0,pending,Nuốt đau là một dạng rối loạn nuốt
+HP:0031253,HP:0002020,SRC:HPO,curated,1,1.0,pending,Ợ chua là triệu chứng liên quan đến ợ nóng trào ngược

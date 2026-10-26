@@ -1,0 +1,62 @@
+id,name_en,name_vi,aliases_vi,is_red_flag,source_id,review_status,notes
+HP:0012735,Cough,Ho,ho hắng;tiếng ho;phản xạ ho,false,SRC:HPO,pending,Triệu chứng đường hô hấp thường gặp nhất
+HP:0031246,Non-productive cough,Ho khan,ho không có đờm;ho rát cổ;ho khan kích ứng,false,SRC:HPO,pending,"Thường gặp trong viêm họng, GERD, ho do ACEi, hen thể ho"
+HP:0031245,Productive cough,Ho có đờm,ho khạc đờm;ho đờm;đờm đường thở,false,SRC:HPO,pending,"Đặc trưng cho nhiễm trùng phế quản phổi, giãn phế quản, COPD"
+HP:0025425,Chronic cough,Ho kéo dài mạn tính,ho dai dẳng;ho mạn tính;ho trên 8 tuần;ho dai dẳng không dứt,false,SRC:HPO,pending,"Ho kéo dài trên 8 tuần, cần loại trừ lao, ung thư phổi, UACS, hen, GERD"
+HP:0033431,Paroxysmal cough,Ho cơn kịch phát,ho rũ rượi;ho thành từng cơn;cơn ho kéo dài,false,SRC:HPO,pending,"Gặp trong ho gà, hen phế quản, dị vật đường thở"
+HP:0025426,Barking cough,Ho ông ổng,ho như chó sủa;tiếng ho ông ổng;ho thanh quản,false,SRC:HPO,pending,Điển hình cho croup viêm thanh khí phế quản cấp ở trẻ em
+HP:0002105,Hemoptysis,Ho ra máu,khạc ra máu;ho lẫn máu;khạc đờm dính máu;ho ra máu sét đánh,true,SRC:HPO,pending,"Dấu hiệu cảnh báo cấp cứu (red flag): lao phổi, ung thư phổi, giãn phế quản, thuyên tắc phổi"
+HP:0002094,Dyspnea,Khó thở,hụt hơi;thở mệt;thở khó khăn;ngột thở,false,SRC:HPO,pending,Cảm giác chủ quan về việc thiếu không khí hoặc khó khăn khi thở
+HP:0025440,Dyspnea at rest,Khó thở khi nghỉ ngơi,khó thở khi ngồi yên;khó thở liên tục;ngồi cũng khó thở,true,SRC:HPO,pending,"Dấu hiệu cảnh báo cấp cứu (red flag): suy hô hấp cấp, tràn khí màng phổi, phù phổi cấp"
+HP:0002875,Exertional dyspnea,Khó thở khi gắng sức,thở dốc khi leo cầu thang;hụt hơi khi đi bộ;thở mệt khi làm việc nặng,false,SRC:HPO,pending,"Biểu hiện sớm của suy tim, COPD, xơ phổi kẽ"
+HP:0012764,Orthopnea,Khó thở khi nằm đầu bằng,phải kê cao gối khi ngủ;không nằm thẳng được;ngồi dậy mới dễ thở,false,SRC:HPO,pending,Đặc hiệu cho suy tim sung huyết và ứ huyết phổi tư thế nằm
+HP:0025439,Paroxysmal nocturnal dyspnea,Khó thở kịch phát về đêm,khó thở bật dậy lúc nửa đêm;ngột thở khi đang ngủ,false,SRC:HPO,pending,Triệu chứng kinh điển của suy tim trái (hen tim)
+HP:0002789,Tachypnea,Thở nhanh nông,nhịp thở nhanh;thở dồn dập;thở gấp trên 20 lần/phút,false,SRC:HPO,pending,Đáp ứng bù trừ giảm oxy máu hoặc toan chuyển hóa
+HP:0002113,Bradypnea,Thở chậm ức chế,nhịp thở chậm dưới 10 lần/phút;thở rời rạc,true,SRC:HPO,pending,Dấu hiệu kiệt sức cơ hô hấp hoặc ức chế thần kinh trung ương (red flag)
+HP:0002104,Apnea,Cơn ngừng thở,ngừng thở thoáng qua;nghẹt thở khi ngủ;cơn nín thở,true,SRC:HPO,pending,Dấu hiệu đe dọa ngừng tuần hoàn hô hấp (red flag)
+HP:0030829,Abnormal respiratory sounds,Tiếng thở bất thường,thở có tiếng lạ;tiếng rên đường thở;nghe tiếng rít khi thở,false,SRC:HPO,pending,Âm bệnh lý nghe được qua ống nghe hoặc bằng tai trần
+HP:0030828,Wheezing,Thở khò khè,thở rít thì thở ra;tiếng khò khè phế quản;thở cò cử,false,SRC:HPO,pending,"Tắc nghẽn đường dẫn khí dưới do co thắt hoặc phù nề trong hen, COPD"
+HP:0010307,Stridor,Thở rít thanh quản thì hít vào,tiếng rít thanh quản;thở rít thì hít vào;tiếng rít đường thở trên,true,SRC:HPO,pending,"Tắc nghẽn đường hô hấp trên nguy hiểm (croup, dị vật, viêm nắp thanh quản - red flag)"
+HP:0030830,Crackles,Ran nổ và ran ẩm,tiếng ran nổ;tiếng ran ẩm;tiếng xé băng dính ở đáy phổi,false,SRC:HPO,pending,"Âm phế nang mở do dịch hoặc xơ hóa (viêm phổi, phù phổi, xơ phổi)"
+HP:0030831,Rhonchi,Ran ngáy,tiếng ran ngáy;tiếng đờm dãi rung đường thở,false,SRC:HPO,pending,Ứ đọng dịch đờm trong các phế quản lớn
+HP:0000961,Cyanosis,Tím tái môi đầu chi,tím môi;tím đầu ngón tay;da xanh tím;thiếu oxy tím ngắt,true,SRC:HPO,pending,Dấu hiệu thiếu oxy máu nặng đe dọa tính mạng (red flag)
+HP:0012418,Hypoxemia,Giảm oxy máu,tụt oxy máu;spo2 giảm dưới 92%;thiếu oxy máu thầm lặng,true,SRC:HPO,pending,Độ bão hòa oxy giảm cần hỗ trợ hô hấp khẩn cấp (red flag)
+HP:0012767,Asphyxia,Ngạt thở cấp,ngạt thở ngột ngạt;nghẹt thở do dị vật;không thở được,true,SRC:HPO,pending,Bít tắc đường hô hấp cấp cứu tối khẩn (red flag)
+HP:0100749,Chest pain,Đau ngực,tức ngực;đau vùng ngực;đau nhói ngực,false,SRC:HPO,pending,Triệu chứng tim phổi quan trọng cần phân tầng nguy cơ
+HP:0031247,Pleuritic chest pain,Đau ngực kiểu màng phổi,đau nhói khi hít sâu;đau ngực khi ho hắt hơi;đau như dao đâm một bên ngực,false,SRC:HPO,pending,"Đặc trưng cho kích thích lá thành màng phổi: thuyên tắc phổi, tràn khí, viêm màng phổi"
+HP:0025428,Chest tightness,Cảm giác nặng tức ngực,nặng ngực như có đá đè;bó chặt ngực;tức ngực khó chịu,false,SRC:HPO,pending,"Hay gặp trong cơn hen phế quản, thiếu máu cơ tim"
+HP:0033050,Sore throat,Đau rát họng,rát họng;rát cổ họng;đau họng khi nói,false,SRC:HPO,pending,"Dấu hiệu viêm đường hô hấp trên (viêm họng, cảm lạnh)"
+HP:0002746,Pharyngitis,Viêm đỏ niêm mạc họng,họng sưng đỏ;sung huyết hầu họng,false,SRC:HPO,pending,Tổn thương thực thể vùng hầu họng do virus hoặc vi khuẩn
+HP:0002015,Dysphagia,Khó nuốt,nuốt nghẹn;nuốt khó;nuốt vướng cổ họng,false,SRC:HPO,pending,Cản trở thức ăn đường tiêu hóa trên hoặc chèn ép trung thất
+HP:0100763,Odynophagia,Nuốt đau buốt,nuốt đau rát;đau buốt lên tai khi nuốt;nuốt nghẹn buốt,false,SRC:HPO,pending,"Viêm amidan cấp, viêm nắp thanh quản cấp, loét thực quản"
+HP:0001609,Hoarseness,Khàn tiếng,mất tiếng;khàn đặc giọng;giọng khàn rè,false,SRC:HPO,pending,Tổn thương dây thanh âm hoặc dây thần kinh quặt ngược phế quản
+HP:0031417,Rhinorrhea,Chảy nước mũi,sổ mũi;chảy mũi trong;chảy dịch mũi,false,SRC:HPO,pending,"Triệu chứng viêm mũi dị ứng, cảm lạnh"
+HP:0001742,Nasal congestion,Nghẹt mũi,ngạt mũi;tắc mũi;nghẹt đường thở mũi,false,SRC:HPO,pending,Phù nề cuốn mũi gây thở bằng miệng
+HP:0033834,Sneezing,Hắt hơi,hắt xì;hắt xì hơi liên tục,false,SRC:HPO,pending,Phản xạ bảo vệ đường thở trên khi có dị nguyên kích thích
+HP:0000458,Anosmia,Mất khứu giác,mất ngửi;không ngửi thấy mùi;giảm khứu giác,false,SRC:HPO,pending,"Gặp trong viêm mũi xoang mạn tính, COVID-19"
+HP:0031248,Post-nasal drip,Chảy dịch mũi sau,vướng đờm ở cổ;nuốt dịch mũi sau họng;khịt khạc thành sau họng,false,SRC:HPO,pending,Nguyên nhân hàng đầu gây ho mạn tính (UACS)
+HP:0002307,Drooling,Chảy nước dãi kèm há miệng,chảy dãi không nuốt được;tư thế ngửa cổ há miệng,true,SRC:HPO,pending,Dấu hiệu cảnh báo cấp cứu viêm nắp thanh quản cấp / áp xe thành sau họng (red flag)
+HP:0025427,Purulent sputum,Đờm mủ đục vàng xanh,khạc đờm vàng;khạc đờm xanh;đờm mủ nhớt,false,SRC:HPO,pending,Dấu hiệu nhiễm khuẩn phế quản phổi cần kháng sinh
+HP:0031249,Foul-smelling sputum,Đờm có mùi thối khẳn,đờm thối;đờm hôi khẳn;khạc đờm có mùi hôi,false,SRC:HPO,pending,"Dấu hiệu nhiễm vi khuẩn kỵ khí trong áp xe phổi, viêm phổi hít"
+HP:0031250,Frothy pink sputum,Khạc đờm bọt hồng,đờm bọt sủi;đờm dính bọt màu hồng;khạc bọt màu hoa đào,true,SRC:HPO,pending,Dấu hiệu cấp cứu kinh điển của phù phổi cấp huyết động (red flag)
+HP:0001945,Fever,Sốt,nhiệt độ tăng;người nóng ran;thân nhiệt cao,false,SRC:HPO,pending,Phản ứng viêm toàn thân trước tác nhân gây bệnh
+HP:0001954,High fever,Sốt cao liên tục,sốt cao trên 39 độ;sốt cao co giật;sốt nóng ran người,false,SRC:HPO,pending,"Nhiễm trùng cấp tính nghiêm trọng (viêm phổi, cúm, áp xe)"
+HP:0025429,Low-grade fever,Sốt nhẹ về chiều,sốt hâm hấp;sốt âm ỉ;sốt nhẹ 37.5-38 độ về chiều,false,SRC:HPO,pending,Dấu hiệu nhiễm trùng mạn tính điển hình của bệnh lao phổi
+HP:0031251,Chills,Rét run và ớn lạnh,rét run lập cập;ớn lạnh;sốt kèm gai rét,false,SRC:HPO,pending,Cơn phóng thích vi khuẩn hoặc cytokine vào máu
+HP:0030282,Night sweats,Đổ mồ hôi trộm ban đêm,vã mồ hôi ướt áo khi ngủ;mồ hôi trộm,false,SRC:HPO,pending,"Triệu chứng toàn thân kinh điển của bệnh lao, ung thư hạch"
+HP:0012378,Fatigue,Mệt mỏi suy nhược,người uể oải;suy nhược cơ thể;mệt lử,false,SRC:HPO,pending,Triệu chứng không đặc hiệu kèm theo phản ứng nhiễm trùng hoặc suy hô hấp
+HP:0001824,Weight loss,Sụt cân không chủ ý,sút cân;gầy rộc đi;giảm cân nhanh không rõ lý do,false,SRC:HPO,pending,"Dấu hiệu cảnh báo bệnh ác tính, lao hoặc bệnh phổi mạn giai đoạn muộn"
+HP:0004396,Anorexia,Chán ăn mất cảm giác ngon miệng,ăn không ngon;chán ăn;bỏ bữa,false,SRC:HPO,pending,Hội chứng đáp ứng viêm toàn thân mạn tính
+HP:0003326,Myalgia,Đau nhức cơ bắp toàn thân,đau mỏi mình mẩy;nhức mỏi cơ khớp;ê ẩm người,false,SRC:HPO,pending,"Đặc trưng cho hội chứng cúm do virus (Cúm A/B, COVID-19)"
+HP:0002315,Headache,Đau đầu nhức đầu,nhức đầu vùng trán;đau căng đầu,false,SRC:HPO,pending,Triệu chứng đi kèm sốt virus hoặc ứ đọng khí CO2 trong suy hô hấp
+HP:0002102,Intercostal retractions,Co kéo cơ hô hấp phụ,co kéo hõm ức;rút lõm lồng ngực;co kéo cơ liên sườn,true,SRC:HPO,pending,Dấu hiệu suy hô hấp nặng gắng sức hô hấp tối đa (red flag)
+HP:0004495,Nasal flaring,Phập phồng cánh mũi,cánh mũi phập phồng khi thở,false,SRC:HPO,pending,"Gắng sức hô hấp ở trẻ nhỏ bị viêm phổi, suy hô hấp"
+HP:0001289,Confusion,Rối loạn ý thức và lú lẫn,mơ màng;lú lẫn mê sảng;tiếp xúc chậm chạp,true,SRC:HPO,pending,"Dấu hiệu giảm oxy máu não hoặc toan hô hấp nặng; tiêu chuẩn C trong thang điểm CURB-65 (red flag)"
+HP:0001279,Syncope,Ngất xỉu mất tri giác đột ngột,ngất xỉu;choáng ngất;mất ý thức thoáng qua,true,SRC:HPO,pending,Dấu hiệu tụt huyết áp sốc tim hoặc thuyên tắc phổi diện rộng (red flag)
+HP:0002615,Hypotension,Tụt huyết áp tụt huyết áp sốc,huyết áp tụt dưới 90/60;mạch nhanh nhỏ khó bắt;sốc tụt áp,true,SRC:HPO,pending,Dấu hiệu sốc nhiễm trùng huyết hoặc sốc tắc nghẽn (red flag)
+HP:0001662,Tachycardia,Mạch nhanh tim đập nhanh,tim đập nhanh trên 100 lần/phút;hồi hộp đánh trống ngực,false,SRC:HPO,pending,Bù trừ thiếu oxy máu hoặc sốt phản ứng
+HP:0002883,Hyperventilation,Tăng thông khí thở sâu dồn dập,thở nhanh sâu;thở dồn dập quá mức,false,SRC:HPO,pending,Gặp trong toan chuyển hóa nặng hoặc cơn hoảng loạn lo âu
+HP:0001217,Clubbing,Ngón tay dùi trống,móng tay khum mặt kính đồng hồ;đầu ngón tay to bè,false,SRC:HPO,pending,"Dấu hiệu thiếu oxy mạn tính: ung thư phổi, giãn phế quản, xơ phổi"
+HP:0003401,Paresthesia,Tê bì dị cảm đầu chi,tê râm ran đầu ngón tay ngón chân;tê quanh miệng,false,SRC:HPO,pending,Biểu hiện hạ canxi máu tương đối do kiềm hô hấp trong cơn tăng thông khí
+HP:0002020,Heartburn,Cảm giác nóng rát sau xương ức (ợ nóng),ợ nóng;rát bỏng thượng vị;rát ngực sau ăn,false,SRC:HPO,pending,Dấu hiệu trào ngược axit dạ dày thực quản (GERD) gây ho
+HP:0031253,Acid regurgitation,Ợ chua và trào ngược dịch vị,ợ chua;trào dịch chua lên họng;dịch đắng chua ở miệng,false,SRC:HPO,pending,Kích thích thanh khí quản gây ho mạn tính ngoài phổi
