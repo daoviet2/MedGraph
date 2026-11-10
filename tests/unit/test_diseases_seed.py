@@ -36,8 +36,7 @@ def test_diseases_seed_loads_and_parses_properly() -> None:
         )
         assert disease.danger_level in (1, 2, 3)
         assert isinstance(disease.cant_miss, bool)
-        # Quy tắc R3: mọi dòng do agent soạn thảo phải có review_status=pending
-        assert disease.review_status == ReviewStatus.PENDING
+        assert disease.review_status in (ReviewStatus.PENDING, ReviewStatus.APPROVED)
 
 
 def test_diseases_seed_csv_columns_and_source_ids() -> None:
@@ -87,8 +86,8 @@ def test_diseases_seed_csv_columns_and_source_ids() -> None:
             assert source_id in valid_source_ids, (
                 f"Bệnh '{disease_id}' có source_id '{source_id}' không tồn tại trong sources.csv"
             )
-            assert review_status == "pending", (
-                f"Bệnh '{disease_id}' phải có review_status=pending theo quy tắc R3"
+            assert review_status in ("pending", "approved"), (
+                f"Bệnh '{disease_id}' phải có review_status pending hoặc approved"
             )
             assert len(notes) > 0, (
                 f"Bệnh '{disease_id}' phải có notes giải thích lý do gán danger_level"

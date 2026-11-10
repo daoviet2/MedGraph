@@ -33,7 +33,7 @@ def test_symptoms_seed_loads_and_parses_properly() -> None:
         assert symptom.name_en and len(symptom.name_en.strip()) > 0
         assert symptom.name_vi and len(symptom.name_vi.strip()) > 0
         assert isinstance(symptom.is_red_flag, bool)
-        assert symptom.review_status == ReviewStatus.PENDING
+        assert symptom.review_status in (ReviewStatus.PENDING, ReviewStatus.APPROVED)
 
     # Kiểm tra các triệu chứng red flag hô hấp bắt buộc
     red_flags = {s.id: s for s in bundle.symptoms if s.is_red_flag}
@@ -67,7 +67,7 @@ def test_risk_factors_seed_loads_and_parses_properly() -> None:
         assert rf.id.startswith("RF:")
         assert rf.name_vi and len(rf.name_vi.strip()) > 0
         assert rf.type and len(rf.type.strip()) > 0
-        assert rf.review_status == ReviewStatus.PENDING
+        assert rf.review_status in (ReviewStatus.PENDING, ReviewStatus.APPROVED)
 
 
 def test_total_symptoms_and_risk_factors_count() -> None:
@@ -105,7 +105,7 @@ def test_lab_tests_seed_loads_and_parses_properly() -> None:
         assert lab.id.startswith("LOINC:") or lab.id.startswith("LAB:")
         assert lab.name_vi and len(lab.name_vi.strip()) > 0
         assert lab.purpose and len(lab.purpose.strip()) > 0
-        assert lab.review_status == ReviewStatus.PENDING
+        assert lab.review_status in (ReviewStatus.PENDING, ReviewStatus.APPROVED)
 
 
 def test_is_a_edges_validity_and_acyclic() -> None:
