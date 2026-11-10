@@ -1,0 +1,175 @@
+symptom_id,disease_id,weight,is_cardinal,source_id,provenance,evidence_count,confidence,notes
+HP:0031245,ICD10:J18.9,0.85,True,SRC:BYT_PNEUMONIA_2020,curated,2,1.0,Ho có đờm là triệu chứng lâm sàng cốt lõi của viêm phổi
+HP:0001954,ICD10:J18.9,0.85,True,SRC:BYT_PNEUMONIA_2020,curated,2,1.0,Sốt cao liên tục điển hình cho viêm phổi cấp
+HP:0030830,ICD10:J18.9,0.9,False,SRC:BYT_PNEUMONIA_2020,curated,2,1.0,Ran nổ và ran ẩm khu trú vùng đông đặc nhu mô phổi
+HP:0031247,ICD10:J18.9,0.75,False,SRC:BYT_PNEUMONIA_2020,curated,1,0.95,Đau ngực kiểu màng phổi khi tổn thương sát lá thành
+HP:0002094,ICD10:J18.9,0.75,False,SRC:BYT_PNEUMONIA_2020,curated,1,0.95,Khó thở khi diện tích phổi tổn thương lan rộng
+HP:0025427,ICD10:J18.9,0.8,False,SRC:BYT_PNEUMONIA_2020,auto_extracted,1,0.85,Khạc đờm mủ đục vàng xanh do vi khuẩn
+HP:0012735,ICD10:J20.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Ho là triệu chứng cốt lõi của viêm phế quản cấp
+HP:0031245,ICD10:J20.9,0.75,False,SRC:MEDLINEPLUS,curated,1,0.95,Ho khạc đờm trong hoặc đục
+HP:0001945,ICD10:J20.9,0.65,False,SRC:MEDLINEPLUS,curated,1,0.9,Sốt nhẹ hoặc vừa trong giai đoạn khởi phát
+HP:0033050,ICD10:J20.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Đau rát họng đi kèm viêm đường hô hấp trên
+HP:0012378,ICD10:J20.9,0.55,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Mệt mỏi suy nhược nhẹ
+HP:0030828,ICD10:J21.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Thở khò khè là triệu chứng cốt lõi ở trẻ viêm tiểu phế quản
+HP:0002789,ICD10:J21.9,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Thở nhanh nông do tắc nghẽn đường dẫn khí nhỏ
+HP:0002102,ICD10:J21.9,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Co kéo cơ hô hấp phụ khi suy hô hấp
+HP:0004495,ICD10:J21.9,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Phập phồng cánh mũi phản ánh gắng sức
+HP:0031417,ICD10:J21.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Tiền triệu chảy nước mũi do nhiễm virus
+HP:0031249,ICD10:J85.2,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Khạc đờm mủ mùi thối khẳn là triệu chứng cốt lõi của áp xe phổi
+HP:0001954,ICD10:J85.2,0.9,False,SRC:MEDLINEPLUS,curated,2,1.0,Sốt cao dao động kèm rét run
+HP:0031251,ICD10:J85.2,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Cơn rét run khi ổ mủ giải phóng độc tố
+HP:0002105,ICD10:J85.2,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ho ra máu khi hoại tử vách mạch máu phổi
+HP:0001824,ICD10:J85.2,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Sụt cân gầy sút trong bệnh mủ mạn tính
+HP:0025427,ICD10:J47.0,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Khạc đờm mủ lượng nhiều từng lớp là triệu chứng cốt lõi
+HP:0025425,ICD10:J47.0,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Ho kéo dài mạn tính nhiều năm
+HP:0002105,ICD10:J47.0,0.8,False,SRC:MEDLINEPLUS,curated,2,0.95,Ho ra máu tái diễn
+HP:0030830,ICD10:J47.0,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ran ẩm ran nổ cố định vùng tổn thương
+HP:0001217,ICD10:J47.0,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Ngón tay dùi trống trong bệnh mạn tính
+HP:0025425,ICD10:A15.0,0.9,True,SRC:WHO_TB_2022,curated,2,1.0,Ho khạc đờm kéo dài trên 2 tuần là dấu hiệu nghi lao cốt lõi
+HP:0025429,ICD10:A15.0,0.9,True,SRC:WHO_TB_2022,curated,2,1.0,Sốt nhẹ về chiều là triệu chứng kinh điển cốt lõi của lao
+HP:0030282,ICD10:A15.0,0.85,False,SRC:WHO_TB_2022,curated,2,0.95,Đổ mồ hôi trộm ban đêm ướt áo
+HP:0001824,ICD10:A15.0,0.85,False,SRC:WHO_TB_2022,curated,2,0.95,Gầy sút cân nhanh không rõ nguyên nhân
+HP:0002105,ICD10:A15.0,0.75,False,SRC:WHO_TB_2022,curated,1,0.9,Ho ra máu từ ít đến nhiều
+HP:0004396,ICD10:A15.0,0.7,False,SRC:WHO_TB_2022,auto_extracted,1,0.85,Chán ăn mệt mỏi suy nhược
+HP:0003326,ICD10:J10.1,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau nhức cơ bắp toàn thân dữ dội là triệu chứng cốt lõi của cúm
+HP:0001954,ICD10:J10.1,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Sốt cao đột ngột rét run
+HP:0002315,ICD10:J10.1,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Đau đầu nhức hốc mắt
+HP:0031246,ICD10:J10.1,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ho khan rát bỏng sau xương ức
+HP:0012378,ICD10:J10.1,0.8,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Mệt lử uể oải kiệt sức
+HP:0000458,ICD10:U07.1,0.85,True,SRC:MEDLINEPLUS,curated,2,1.0,Mất ngửi giảm khứu giác đột ngột là dấu hiệu chỉ điểm cốt lõi
+HP:0001945,ICD10:U07.1,0.8,False,SRC:MEDLINEPLUS,curated,1,0.95,Sốt giao động
+HP:0031246,ICD10:U07.1,0.8,False,SRC:MEDLINEPLUS,curated,1,0.95,Ho khan dai dẳng kích ứng
+HP:0012418,ICD10:U07.1,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Giảm SpO2 thầm lặng (happy hypoxia)
+HP:0003326,ICD10:U07.1,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Đau nhức cơ bắp và mệt mỏi kéo dài
+HP:0030828,ICD10:J45.9,0.95,True,SRC:BYT_ASTHMA_2020,curated,2,1.0,Thở khò khè tái phát về đêm và sáng là triệu chứng cốt lõi
+HP:0025428,ICD10:J45.9,0.85,False,SRC:BYT_ASTHMA_2020,curated,2,0.95,Cảm giác nặng tức ngực khi co thắt
+HP:0002094,ICD10:J45.9,0.85,False,SRC:BYT_ASTHMA_2020,curated,2,0.95,Khó thở thì thở ra
+HP:0033431,ICD10:J45.9,0.8,False,SRC:BYT_ASTHMA_2020,curated,1,0.9,Ho thành cơn kịch phát
+HP:0031246,ICD10:J45.9,0.7,False,SRC:BYT_ASTHMA_2020,auto_extracted,1,0.85,Ho khan kích ứng khi tiếp xúc dị nguyên
+HP:0025440,ICD10:J46,0.95,True,SRC:BYT_ASTHMA_2020,curated,2,1.0,Khó thở dữ dội khi ngồi nghỉ là triệu chứng cốt lõi
+HP:0012418,ICD10:J46,0.95,True,SRC:BYT_ASTHMA_2020,curated,2,1.0,Tụt oxy máu SpO2 dưới 90% phản ánh nguy kịch
+HP:0002102,ICD10:J46,0.9,False,SRC:BYT_ASTHMA_2020,curated,2,1.0,Co kéo cơ hô hấp phụ và hõm ức rõ
+HP:0000961,ICD10:J46,0.85,False,SRC:BYT_ASTHMA_2020,curated,1,0.95,Tím tái môi đầu chi
+HP:0001662,ICD10:J46,0.85,False,SRC:BYT_ASTHMA_2020,auto_extracted,1,0.9,Mạch nhanh trên 120 lần/phút
+HP:0002875,ICD10:J44.9,0.9,True,SRC:BYT_COPD_2023,curated,2,1.0,Khó thở khi gắng sức tiến triển theo năm tháng là triệu chứng cốt lõi
+HP:0025425,ICD10:J44.9,0.85,False,SRC:BYT_COPD_2023,curated,2,1.0,Ho kéo dài mạn tính nhiều tháng
+HP:0031245,ICD10:J44.9,0.8,False,SRC:BYT_COPD_2023,curated,1,0.95,Ho khạc đờm buổi sáng
+HP:0030828,ICD10:J44.9,0.7,False,SRC:BYT_COPD_2023,auto_extracted,1,0.85,Khò khè dai dẳng
+HP:0025427,ICD10:J44.1,0.9,True,SRC:BYT_COPD_2023,curated,2,1.0,Đờm chuyển màu mủ đục theo tiêu chuẩn Anthonisen là cốt lõi
+HP:0025440,ICD10:J44.1,0.9,False,SRC:BYT_COPD_2023,curated,2,0.95,Tăng mức độ khó thở đột ngột
+HP:0012418,ICD10:J44.1,0.85,False,SRC:BYT_COPD_2023,curated,1,0.95,Giảm PaO2 và SpO2
+HP:0030831,ICD10:J44.1,0.8,False,SRC:BYT_COPD_2023,auto_extracted,1,0.85,Nghe phổi nhiều ran ngáy ran rít
+HP:0001289,ICD10:J44.1,0.75,False,SRC:BYT_COPD_2023,auto_extracted,1,0.8,Lú lẫn do tăng PaCO2 máu
+HP:0031247,ICD10:I26.9,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau ngực màng phổi nhói buốt đột ngột là triệu chứng cốt lõi
+HP:0002789,ICD10:I26.9,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Thở nhanh nông xuất hiện tức thì
+HP:0002105,ICD10:I26.9,0.75,False,SRC:MEDLINEPLUS,curated,2,0.95,Ho ra máu tươi khi có nhồi máu phổi
+HP:0001662,ICD10:I26.9,0.85,False,SRC:MEDLINEPLUS,curated,1,0.9,Nhịp tim nhanh trên 100 lần/phút
+HP:0001279,ICD10:I26.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ngất xỉu do giảm cung lượng tim đột ngột
+HP:0002615,ICD10:I26.9,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Tụt huyết áp sốc tắc nghẽn
+HP:0031247,ICD10:J93.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau ngực dữ dội đột ngột như dao đâm một bên phổi là cốt lõi
+HP:0002094,ICD10:J93.9,0.9,False,SRC:MEDLINEPLUS,curated,2,0.95,Khó thở xuất hiện đột ngột cùng đau ngực
+HP:0002789,ICD10:J93.9,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Thở nhanh dồn dập
+HP:0000961,ICD10:J93.9,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Tím tái khi tràn khí áp lực
+HP:0002615,ICD10:J93.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Tụt áp do chèn ép trung thất
+HP:0031247,ICD10:J90,0.85,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau tức ngực màng phổi giảm khi dịch tăng là cốt lõi
+HP:0002094,ICD10:J90,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Khó thở tăng dần theo lượng dịch khoang màng phổi
+HP:0031246,ICD10:J90,0.7,False,SRC:MEDLINEPLUS,curated,1,0.9,Ho khan tăng khi thay đổi tư thế
+HP:0001945,ICD10:J90,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Sốt nếu tràn dịch do nhiễm trùng hoặc lao
+HP:0031247,ICD10:R09.1,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau ngực nhói buốt tăng mạnh khi hít sâu là cốt lõi
+HP:0002789,ICD10:R09.1,0.75,False,SRC:MEDLINEPLUS,curated,1,0.9,Thở nhanh nông vì sợ đau ngực
+HP:0031246,ICD10:R09.1,0.7,False,SRC:MEDLINEPLUS,curated,1,0.85,Ho khan gây đau nhói ngực
+HP:0001945,ICD10:R09.1,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Sốt nhẹ đi kèm
+HP:0031250,ICD10:J81,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Khạc đờm bọt hồng là triệu chứng bệnh học cốt lõi của phù phổi cấp
+HP:0025440,ICD10:J81,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Khó thở dữ dội ngột ngạt khi ngồi nghỉ
+HP:0012764,ICD10:J81,0.9,False,SRC:MEDLINEPLUS,curated,2,0.95,Không thể nằm thẳng đầu bằng
+HP:0030830,ICD10:J81,0.9,False,SRC:MEDLINEPLUS,curated,2,0.95,Ran ẩm dâng nhanh như thủy triều hai phế trường
+HP:0000961,ICD10:J81,0.85,False,SRC:MEDLINEPLUS,auto_extracted,1,0.9,Tím tái vã mồ hôi
+HP:0012418,ICD10:J80,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Giảm oxy máu trơ kháng với oxy liều cao là cốt lõi
+HP:0002789,ICD10:J80,0.9,False,SRC:MEDLINEPLUS,curated,2,0.95,Thở dồn dập nhanh nông
+HP:0002102,ICD10:J80,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Co kéo cơ hô hấp phụ tối đa
+HP:0000961,ICD10:J80,0.85,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Tím tái lan tỏa
+HP:0001289,ICD10:J80,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Hôn mê lú lẫn
+HP:0031417,ICD10:J00,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Chảy nước mũi trong là triệu chứng cốt lõi của cảm lạnh
+HP:0001742,ICD10:J00,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Nghẹt mũi tắc đường thở mũi
+HP:0033834,ICD10:J00,0.8,False,SRC:MEDLINEPLUS,curated,1,0.95,Hắt hơi từng tràng
+HP:0033050,ICD10:J00,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Rát họng nhẹ khởi phát
+HP:0031246,ICD10:J00,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Ho khan kích ứng nhẹ
+HP:0002315,ICD10:J01.9,0.85,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau nhức căng tức vùng mặt hốc mắt và trán là cốt lõi
+HP:0001742,ICD10:J01.9,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Nghẹt mũi một hoặc hai bên
+HP:0031248,ICD10:J01.9,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Chảy dịch mũi mủ xuống họng
+HP:0000458,ICD10:J01.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Mất ngửi hoặc giảm khứu giác
+HP:0025427,ICD10:J01.9,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Dịch mũi đục vàng xanh
+HP:0033050,ICD10:J02.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Đau rát họng khi nuốt là triệu chứng cốt lõi của viêm họng
+HP:0002746,ICD10:J02.9,0.9,False,SRC:MEDLINEPLUS,curated,2,1.0,Niêm mạc hầu họng sưng đỏ sung huyết
+HP:0100763,ICD10:J02.9,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Nuốt đau buốt cổ họng
+HP:0001945,ICD10:J02.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Sốt nhẹ hoặc sốt cao
+HP:0031246,ICD10:J02.9,0.6,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Ho khan rát cổ
+HP:0100763,ICD10:J03.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Nuốt đau buốt lan lên tai là triệu chứng cốt lõi
+HP:0001954,ICD10:J03.9,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Sốt cao liên tục có chấm mủ amidan
+HP:0033050,ICD10:J03.9,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Đau họng họng vướng
+HP:0031251,ICD10:J03.9,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Rét run khi có mủ
+HP:0001609,ICD10:J03.9,0.6,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Giọng ngậm thị hoặc đổi giọng
+HP:0001609,ICD10:J04.0,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Khàn tiếng mất tiếng hoàn toàn là triệu chứng cốt lõi
+HP:0031246,ICD10:J04.0,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Ho khan rát vùng thanh môn
+HP:0033050,ICD10:J04.0,0.75,False,SRC:MEDLINEPLUS,curated,1,0.9,Rát họng khi phát âm
+HP:0001945,ICD10:J04.0,0.6,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Sốt nhẹ đi kèm
+HP:0025426,ICD10:J05.0,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Ho ông ổng như chó sủa là triệu chứng cốt lõi của croup
+HP:0010307,ICD10:J05.0,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Thở rít thanh quản khi hít vào là dấu hiệu hẹp đường thở
+HP:0001609,ICD10:J05.0,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Khàn tiếng ở trẻ nhỏ
+HP:0002102,ICD10:J05.0,0.8,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Co kéo cơ liên sườn và hõm ức
+HP:0002307,ICD10:J05.1,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Chảy nước dãi không nuốt được kèm tư thế hít ngửi là cốt lõi
+HP:0010307,ICD10:J05.1,0.9,False,SRC:MEDLINEPLUS,curated,2,1.0,Thở rít thanh quản thì hít vào
+HP:0100763,ICD10:J05.1,0.9,False,SRC:MEDLINEPLUS,curated,1,0.95,Nuốt đau buốt họng dữ dội
+HP:0001954,ICD10:J05.1,0.85,False,SRC:MEDLINEPLUS,curated,1,0.95,Sốt cao đột ngột
+HP:0012767,ICD10:J05.1,0.85,False,SRC:MEDLINEPLUS,auto_extracted,1,0.9,Ngạt thở cấp nguy kịch
+HP:0012767,ICD10:T17.9,0.95,True,SRC:MANUAL_CURATION,curated,2,1.0,Ngạt thở cấp tắc nghẽn đường thở cơ học là cốt lõi
+HP:0033431,ICD10:T17.9,0.9,False,SRC:MANUAL_CURATION,curated,2,1.0,Hội chứng xâm nhập ho sặc sụa kịch phát
+HP:0010307,ICD10:T17.9,0.85,False,SRC:MANUAL_CURATION,curated,1,0.95,Thở rít thanh quản khi dị vật ở thanh khí quản
+HP:0000961,ICD10:T17.9,0.85,False,SRC:MANUAL_CURATION,auto_extracted,1,0.9,Tím tái môi mặt ngạt thở
+HP:0002875,ICD10:J84.1,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Khó thở khi gắng sức tăng dần không hồi phục là cốt lõi
+HP:0031246,ICD10:J84.1,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Ho khan dai dẳng khó chịu
+HP:0030830,ICD10:J84.1,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Ran nổ khô kiểu Velcro ở hai đáy phổi
+HP:0001217,ICD10:J84.1,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ngón tay dùi trống thiếu oxy mạn
+HP:0012378,ICD10:J84.1,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Sụt cân và mệt mỏi
+HP:0031246,ICD10:J67.9,0.85,True,SRC:MEDLINEPLUS,curated,2,1.0,Ho khan sau khi tiếp xúc dị nguyên hữu cơ là cốt lõi
+HP:0002094,ICD10:J67.9,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Khó thở xuất hiện sau vài giờ tiếp xúc
+HP:0001945,ICD10:J67.9,0.75,False,SRC:MEDLINEPLUS,curated,1,0.9,Sốt và gai rét
+HP:0031251,ICD10:J67.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Cơn ớn lạnh rét run
+HP:0030830,ICD10:J67.9,0.75,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ran nổ rải rác hai phổi
+HP:0002875,ICD10:J62.8,0.85,True,SRC:MEDLINEPLUS,curated,2,1.0,Khó thở gắng sức tiến triển mạn tính sau nhiều năm hít bụi đá
+HP:0025425,ICD10:J62.8,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Ho mạn tính kéo dài
+HP:0031245,ICD10:J62.8,0.7,False,SRC:MEDLINEPLUS,curated,1,0.85,Ho có đờm đục
+HP:0012378,ICD10:J62.8,0.6,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Mệt mỏi suy giảm thể lực
+HP:0031249,ICD10:J69.0,0.9,True,SRC:BYT_PNEUMONIA_2020,curated,2,1.0,Khạc đờm mủ thối khẳn do vi khuẩn kỵ khí là cốt lõi
+HP:0001954,ICD10:J69.0,0.85,False,SRC:BYT_PNEUMONIA_2020,curated,2,0.95,Sốt cao liên tục
+HP:0002094,ICD10:J69.0,0.85,False,SRC:BYT_PNEUMONIA_2020,curated,1,0.95,Khó thở nặng sau cơn sặc
+HP:0030830,ICD10:J69.0,0.8,False,SRC:BYT_PNEUMONIA_2020,auto_extracted,1,0.85,Ran ẩm ran nổ tập trung ở thùy dưới phổi phải
+HP:0002015,ICD10:J69.0,0.75,False,SRC:BYT_PNEUMONIA_2020,auto_extracted,1,0.85,Khó nuốt sặc thức ăn
+HP:0002020,ICD10:K21.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Ợ nóng rát sau xương ức là triệu chứng chỉ điểm cốt lõi của GERD
+HP:0031253,ICD10:K21.9,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Ợ chua trào ngược dịch toan lên họng là cốt lõi
+HP:0031246,ICD10:K21.9,0.8,False,SRC:MEDLINEPLUS,curated,2,0.95,Ho khan kích ứng đặc biệt khi nằm
+HP:0025425,ICD10:K21.9,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Ho mạn tính dai dẳng trên 8 tuần
+HP:0002015,ICD10:K21.9,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Nuốt nghẹn vướng cổ
+HP:0031248,ICD10:R05.3,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Cảm giác dịch nhầy chảy sau thành họng khịt khạc liên tục là cốt lõi
+HP:0025425,ICD10:R05.3,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Ho kéo dài mạn tính do dịch kích thích thụ thể ho
+HP:0001742,ICD10:R05.3,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Nghẹt mũi đi kèm
+HP:0033050,ICD10:R05.3,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Ngứa rát họng vướng víu
+HP:0031246,ICD10:T88.7,0.95,True,SRC:MANUAL_CURATION,curated,2,1.0,Ho khan dai dẳng không đờm do tích tụ bradykinin là cốt lõi
+HP:0025425,ICD10:T88.7,0.9,False,SRC:MANUAL_CURATION,curated,2,1.0,Ho mạn tính kháng các thuốc ức chế ho thông thường
+HP:0033050,ICD10:T88.7,0.65,False,SRC:MANUAL_CURATION,auto_extracted,1,0.85,Ngứa rát râm ran cổ họng kích thích ho
+HP:0012764,ICD10:I50.9,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Khó thở khi nằm đầu bằng (orthopnea) là triệu chứng tim học cốt lõi
+HP:0025439,ICD10:I50.9,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Khó thở kịch phát về đêm phải bật dậy mở cửa sổ
+HP:0002875,ICD10:I50.9,0.9,False,SRC:MEDLINEPLUS,curated,2,0.95,Khó thở khi gắng sức nhẹ
+HP:0031246,ICD10:I50.9,0.75,False,SRC:MEDLINEPLUS,curated,1,0.9,Ho khan ứ huyết tư thế nằm
+HP:0030830,ICD10:I50.9,0.85,False,SRC:MEDLINEPLUS,auto_extracted,1,0.9,Ran ẩm rải rác hai đáy phổi
+HP:0002883,ICD10:F41.0,0.95,True,SRC:MEDLINEPLUS,curated,2,1.0,Thở nhanh sâu dồn dập quá mức (tăng thông khí) là cốt lõi
+HP:0003401,ICD10:F41.0,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Tê bì râm ran quanh miệng và đầu ngón tay là dấu hiệu kiềm hô hấp
+HP:0025428,ICD10:F41.0,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Cảm giác nghẹn thở bó chặt lồng ngực
+HP:0001662,ICD10:F41.0,0.85,False,SRC:MEDLINEPLUS,auto_extracted,1,0.9,Hồi hộp tim đập nhanh đánh trống ngực
+HP:0002094,ICD10:F41.0,0.85,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Cảm giác chủ quan ngột thở dù phổi thông khí tốt
+HP:0002105,ICD10:C34.9,0.9,True,SRC:MEDLINEPLUS,curated,2,1.0,Ho ra máu tươi hoặc đờm lẫn tia máu là dấu hiệu cảnh báo cốt lõi
+HP:0025425,ICD10:C34.9,0.85,False,SRC:MEDLINEPLUS,curated,2,1.0,Ho mạn tính kéo dài thay đổi tính chất tiếng ho
+HP:0001824,ICD10:C34.9,0.85,False,SRC:MEDLINEPLUS,curated,2,0.95,Sụt cân nhanh không rõ nguyên nhân
+HP:0100749,ICD10:C34.9,0.8,False,SRC:MEDLINEPLUS,curated,1,0.9,Đau ngực âm ỉ cố định một vị trí
+HP:0001609,ICD10:C34.9,0.7,False,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Khàn tiếng do u chèn ép thần kinh quặt ngược thanh quản
+HP:0001217,ICD10:C34.9,0.65,False,SRC:MEDLINEPLUS,auto_extracted,1,0.8,Ngón tay dùi trống cận ung thư

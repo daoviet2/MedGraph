@@ -1,0 +1,37 @@
+disease_id,source_doc_id,section,source_id,provenance,evidence_count,confidence,notes
+ICD10:J18.9,SRC:BYT_PNEUMONIA_2020,Chẩn đoán và phân tầng CURB-65,SRC:BYT_PNEUMONIA_2020,curated,1,1.0,Quyết định 4819/QĐ-BYT
+ICD10:J69.0,SRC:BYT_PNEUMONIA_2020,Viêm phổi hít và vi khuẩn kỵ khí,SRC:BYT_PNEUMONIA_2020,curated,1,1.0,Hướng dẫn điều trị CAP BYT 2020
+ICD10:J44.9,SRC:BYT_COPD_2023,Chẩn đoán và phân nhóm GOLD ABE,SRC:BYT_COPD_2023,curated,1,1.0,Quyết định 2767/QĐ-BYT
+ICD10:J44.1,SRC:BYT_COPD_2023,Xử trí đợt cấp bệnh phổi tắc nghẽn mạn tính,SRC:BYT_COPD_2023,curated,1,1.0,Quyết định 2767/QĐ-BYT
+ICD10:J45.9,SRC:BYT_ASTHMA_2020,Chẩn đoán và kiểm soát hen phế quản,SRC:BYT_ASTHMA_2020,curated,1,1.0,Quyết định 1851/QĐ-BYT
+ICD10:J46,SRC:BYT_ASTHMA_2020,Xử trí cơn hen phế quản cấp nặng và nguy kịch,SRC:BYT_ASTHMA_2020,curated,1,1.0,Quyết định 1851/QĐ-BYT
+ICD10:A15.0,SRC:WHO_TB_2022,Module 3: Chẩn đoán vi sinh và GeneXpert,SRC:WHO_TB_2022,curated,1,1.0,WHO consolidated guidelines on tuberculosis
+ICD10:J20.9,SRC:MEDLINEPLUS,Acute bronchitis overview,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J21.9,SRC:MEDLINEPLUS,Bronchiolitis in infants,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J85.2,SRC:MEDLINEPLUS,Lung abscess etiology and symptoms,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J47.0,SRC:MEDLINEPLUS,Bronchiectasis exacerbation,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J10.1,SRC:MEDLINEPLUS,Influenza complications,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:U07.1,SRC:MEDLINEPLUS,COVID-19 respiratory symptoms,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:I26.9,SRC:MEDLINEPLUS,Pulmonary embolism diagnosis and emergency,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J93.9,SRC:MEDLINEPLUS,Pneumothorax signs and decompression,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J90,SRC:MEDLINEPLUS,Pleural effusion fluid analysis,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:R09.1,SRC:MEDLINEPLUS,Pleurisy pleuritic chest pain,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J81,SRC:MEDLINEPLUS,Pulmonary edema emergency care,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J80,SRC:MEDLINEPLUS,Acute respiratory distress syndrome,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J00,SRC:MEDLINEPLUS,Common cold management,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J01.9,SRC:MEDLINEPLUS,Sinusitis diagnosis,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J02.9,SRC:MEDLINEPLUS,Pharyngitis sore throat,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J03.9,SRC:MEDLINEPLUS,Tonsillitis symptoms,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J04.0,SRC:MEDLINEPLUS,Laryngitis hoarseness,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J05.0,SRC:MEDLINEPLUS,Croup stridor barking cough,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J05.1,SRC:MEDLINEPLUS,Epiglottitis airway obstruction,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J84.1,SRC:MEDLINEPLUS,Idiopathic pulmonary fibrosis HRCT,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J67.9,SRC:MEDLINEPLUS,Hypersensitivity pneumonitis antigen exposure,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:J62.8,SRC:MEDLINEPLUS,Silicosis occupational dust,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:K21.9,SRC:MEDLINEPLUS,GERD extra-esophageal cough,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:R05.3,SRC:MEDLINEPLUS,Upper airway cough syndrome post-nasal drip,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:I50.9,SRC:MEDLINEPLUS,Heart failure dyspnea and orthopnea,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:F41.0,SRC:MEDLINEPLUS,Panic disorder and hyperventilation,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:C34.9,SRC:MEDLINEPLUS,Lung cancer red flags and staging,SRC:MEDLINEPLUS,curated,1,1.0,MedlinePlus Encyclopedia
+ICD10:T17.9,SRC:MANUAL_CURATION,Xử trí cấp cứu dị vật đường hô hấp,SRC:MANUAL_CURATION,curated,1,1.0,MedGraph Emergency Curation
+ICD10:T88.7,SRC:MANUAL_CURATION,Tác dụng phụ ho khan do thuốc ức chế men chuyển,SRC:MANUAL_CURATION,curated,1,1.0,MedGraph Drug Safety Curation

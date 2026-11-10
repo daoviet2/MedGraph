@@ -1,0 +1,30 @@
+disease_id,risk_id,weight,source_id,provenance,evidence_count,confidence,notes
+ICD10:J44.9,RF:smoking,0.95,SRC:BYT_COPD_2023,curated,3,1.0,Hút thuốc là yếu tố nguy cơ nguyên nhân số 1 của COPD
+ICD10:J44.9,RF:passive_smoking,0.8,SRC:BYT_COPD_2023,curated,2,0.95,Tiếp xúc khói thuốc thụ động tăng nguy cơ COPD
+ICD10:J44.9,RF:biomass_fuel,0.85,SRC:BYT_COPD_2023,curated,2,0.95,Đun nấu than củi khí đốt gây COPD ở phụ nữ
+ICD10:J44.9,RF:elderly,0.75,SRC:BYT_COPD_2023,auto_extracted,1,0.85,Tuổi cao tăng nguy cơ tổn thương phế nang tích lũy
+ICD10:J44.1,RF:copd_history,0.95,SRC:BYT_COPD_2023,curated,3,1.0,Có bệnh nền COPD là điều kiện để bùng phát đợt cấp
+ICD10:J44.1,RF:smoking,0.85,SRC:BYT_COPD_2023,curated,2,0.95,Tiếp tục hút thuốc làm tăng tần suất đợt cấp
+ICD10:J45.9,RF:asthma_history,0.95,SRC:BYT_ASTHMA_2020,curated,3,1.0,Cơ địa dị ứng gia đình và tiền sử hen
+ICD10:J45.9,RF:passive_smoking,0.8,SRC:BYT_ASTHMA_2020,curated,2,0.95,Khói thuốc kích thích co thắt phế quản
+ICD10:J46,RF:asthma_history,0.95,SRC:BYT_ASTHMA_2020,curated,3,1.0,Bệnh nhân hen không kiểm soát dễ rơi vào cơn hen cấp nặng
+ICD10:A15.0,RF:tb_contact,0.95,SRC:WHO_TB_2022,curated,3,1.0,Tiếp xúc gần nguồn lây lao phổi
+ICD10:A15.0,RF:crowded_living,0.8,SRC:WHO_TB_2022,curated,2,0.95,Điều kiện sống đông đúc tăng lây lan vi khuẩn lao
+ICD10:A15.0,RF:immunodeficiency,0.9,SRC:WHO_TB_2022,curated,2,1.0,Suy giảm miễn dịch tạo điều kiện lao bùng phát
+ICD10:J18.9,RF:elderly,0.85,SRC:BYT_PNEUMONIA_2020,curated,2,0.95,Người cao tuổi nguy cơ cao mắc viêm phổi nặng
+ICD10:J18.9,RF:immunodeficiency,0.85,SRC:BYT_PNEUMONIA_2020,curated,2,0.95,Miễn dịch suy yếu dễ nhiễm khuẩn nhu mô phổi
+ICD10:J18.9,RF:smoking,0.75,SRC:BYT_PNEUMONIA_2020,auto_extracted,1,0.85,Hút thuốc làm liệt lông chuyển biểu mô phế quản
+ICD10:J69.0,RF:swallowing_dysfunction,0.95,SRC:BYT_PNEUMONIA_2020,curated,3,1.0,Rối loạn nuốt sau tai biến là nguyên nhân hàng đầu gây viêm phổi hít
+ICD10:J69.0,RF:elderly,0.8,SRC:BYT_PNEUMONIA_2020,curated,2,0.9,Phản xạ bảo vệ nắp thanh môn giảm ở người già
+ICD10:C34.9,RF:smoking,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Hút thuốc là yếu tố căn nguyên của trên 85% ung thư phổi
+ICD10:C34.9,RF:passive_smoking,0.8,SRC:MEDLINEPLUS,curated,2,0.9,Hút thuốc thụ động tăng 20-30% nguy cơ K phổi
+ICD10:C34.9,RF:dust_exposure,0.75,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Bụi silica amiang làm tăng đột biến ung thư
+ICD10:J62.8,RF:dust_exposure,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Phơi nhiễm bụi silica mỏ than đá gây bệnh bụi phổi
+ICD10:J67.9,RF:bird_fancier,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Tiếp xúc lông và phân chim gây viêm phổi quá mẫn
+ICD10:I26.9,RF:dvt_history,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Tiền sử huyết khối tĩnh mạch sâu chi dưới di chuyển lên phổi
+ICD10:I26.9,RF:immobilization,0.9,SRC:MEDLINEPLUS,curated,2,0.95,Nằm bất động lâu sau mổ làm ứ trệ tuần hoàn tĩnh mạch
+ICD10:I50.9,RF:heart_failure,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Tiền sử bệnh lý cơ tim tăng huyết áp dẫn đến suy tim
+ICD10:I50.9,RF:elderly,0.8,SRC:MEDLINEPLUS,auto_extracted,1,0.85,Tỷ lệ suy tim tăng vọt ở người cao tuổi
+ICD10:J21.9,RF:infant,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Trẻ dưới 2 tuổi cấu trúc tiểu phế quản hẹp dễ viêm tắc
+ICD10:K21.9,RF:gerd_history,0.95,SRC:MEDLINEPLUS,curated,3,1.0,Tiền sử trào ngược dạ dày dẫn đến biến chứng hô hấp
+ICD10:T88.7,RF:acei_medication,0.95,SRC:MANUAL_CURATION,curated,3,1.0,Đang dùng thuốc ức chế men chuyển điều trị huyết áp

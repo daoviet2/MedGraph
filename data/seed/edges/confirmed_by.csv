@@ -1,0 +1,35 @@
+disease_id,lab_id,role,source_id,provenance,evidence_count,confidence,notes
+ICD10:J18.9,LAB:xray_chest,confirmatory,SRC:BYT_PNEUMONIA_2020,curated,3,1.0,X-quang ngực thấy đám mờ thâm nhiễm đông đặc xác định viêm phổi
+ICD10:J18.9,LOINC:1988-5,screening,SRC:BYT_PNEUMONIA_2020,curated,2,0.95,CRP tăng cao phản ánh phản ứng viêm cấp
+ICD10:J18.9,LOINC:33959-8,screening,SRC:BYT_PNEUMONIA_2020,curated,2,0.95,Procalcitonin tăng chỉ điểm nhiễm khuẩn
+ICD10:A15.0,LOINC:89599-5,confirmatory,SRC:WHO_TB_2022,curated,3,1.0,GeneXpert phát hiện ADN trực khuẩn lao xác định
+ICD10:A15.0,LOINC:11477-7,screening,SRC:WHO_TB_2022,curated,2,0.95,Soi đờm tìm AFB sàng lọc bệnh lao
+ICD10:A15.0,LAB:xray_chest,screening,SRC:WHO_TB_2022,curated,2,0.95,X-quang ngực phát hiện tổn thương hang xơ đỉnh phổi
+ICD10:J44.9,LAB:spirometry,confirmatory,SRC:BYT_COPD_2023,curated,3,1.0,Hô hấp ký FEV1/FVC dưới 0.70 sau test giãn phế quản xác định COPD
+ICD10:J44.9,LAB:xray_chest,screening,SRC:BYT_COPD_2023,curated,1,0.9,X-quang ngực loại trừ các nguyên nhân khác
+ICD10:J44.1,LOINC:2019-8,confirmatory,SRC:BYT_COPD_2023,curated,2,1.0,Khí máu động mạch phát hiện toan hô hấp tăng CO2 máu
+ICD10:J45.9,LAB:spirometry,confirmatory,SRC:BYT_ASTHMA_2020,curated,3,1.0,Hô hấp ký có rối loạn tắc nghẽn hồi phục hoàn toàn xác định hen
+ICD10:J46,LOINC:48421-2,confirmatory,SRC:BYT_ASTHMA_2020,curated,2,1.0,SpO2 tụt phản ánh cơn hen nặng đe dọa tính mạng
+ICD10:I26.9,LAB:ctpa,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,CTPA là tiêu chuẩn vàng chẩn đoán xác định thuyên tắc động mạch phổi
+ICD10:I26.9,LOINC:48065-7,screening,SRC:MEDLINEPLUS,curated,2,0.95,D-dimer âm tính có giá trị loại trừ thuyên tắc phổi
+ICD10:I26.9,LOINC:11524-6,screening,SRC:MEDLINEPLUS,auto_extracted,1,0.85,ECG phát hiện dấu hiệu tâm phế cấp S1Q3T3
+ICD10:J93.9,LAB:xray_chest,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,X-quang ngực thấy đường viền màng phổi tạng và vùng sáng vô mạch xác định tràn khí
+ICD10:J90,LAB:pleural_fluid_analysis,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,Xét nghiệm dịch màng phổi xác định bản chất dịch thấm hay dịch tiết
+ICD10:J90,LAB:xray_chest,screening,SRC:MEDLINEPLUS,curated,2,0.95,X-quang ngực thấy hình mờ góc sườn hoành đường cong Damoiseau
+ICD10:I50.9,LOINC:33762-6,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,NT-proBNP tăng cao xác định khó thở do suy tim sung huyết
+ICD10:I50.9,LOINC:11524-6,screening,SRC:MEDLINEPLUS,curated,1,0.9,ECG phát hiện dày thất và loạn nhịp
+ICD10:C34.9,LAB:ct_chest,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,CT lồng ngực thấy khối u xâm lấn trung thất và hạch
+ICD10:C34.9,LAB:bronchoscopy,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,Nội soi phế quản sinh thiết mô bệnh học xác định ung thư phổi
+ICD10:C34.9,LAB:xray_chest,screening,SRC:MEDLINEPLUS,curated,2,0.9,X-quang ngực phát hiện nốt mờ đơn độc hoặc khối u
+ICD10:U07.1,LOINC:82361-7,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,Test nhanh kháng nguyên SARS-CoV-2 dương tính
+ICD10:J10.1,LOINC:92142-9,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,RT-PCR virus cúm xác định type cúm A hoặc B
+ICD10:J81,LAB:xray_chest,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,X-quang thấy hình cánh bướm ứ huyết hai bên rốn phổi xác định phù phổi cấp
+ICD10:J81,LOINC:33762-6,screening,SRC:MEDLINEPLUS,curated,2,0.95,NT-proBNP tăng rất cao trong phù phổi cấp huyết động
+ICD10:J80,LOINC:2019-8,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,Khí máu động mạch PaO2/FiO2 dưới 300 xác định ARDS
+ICD10:J80,LAB:xray_chest,confirmatory,SRC:MEDLINEPLUS,curated,2,1.0,Thâm nhiễm phế nang lan tỏa hai bên phổi
+ICD10:T17.9,LAB:bronchoscopy,confirmatory,SRC:MANUAL_CURATION,curated,3,1.0,Nội soi phế quản xác định vị trí và gắp dị vật đường thở
+ICD10:T17.9,LAB:xray_chest,screening,SRC:MANUAL_CURATION,auto_extracted,1,0.85,X-quang ngực thấy dị vật cản quang hoặc bẫy khí một bên
+ICD10:J84.1,LAB:ct_chest,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,HRCT ngực thấy hình tổ ong và dãn phế quản co kéo xác định UIP
+ICD10:J84.1,LAB:spirometry,screening,SRC:MEDLINEPLUS,curated,2,0.95,Hô hấp ký phát hiện hội chứng hạn chế
+ICD10:J47.0,LAB:ct_chest,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,CT ngực độ phân giải cao thấy lòng phế quản giãn rộng hơn động mạch đi kèm
+ICD10:J85.2,LAB:ct_chest,confirmatory,SRC:MEDLINEPLUS,curated,3,1.0,CT ngực thấy hình hang thành dày có mức nước hơi xác định áp xe
