@@ -21,6 +21,7 @@ from medgraph.graph.repository import Neo4jGraphRepository
 from medgraph.graph.schema import apply_schema
 from medgraph.graph.seed_reader import read_seed
 from medgraph.graph.seed_validator import IssueLevel, validate_seed_bundle
+from medgraph.graph.stats import refresh_symptom_idf
 
 
 def parse_args() -> argparse.Namespace:
@@ -159,7 +160,11 @@ def main() -> int:
                     print(f"  - {s_id}: {err}", file=sys.stderr)
                 return 1
 
-            # 7. Thống kê số lượng node và cạnh thực tế trên DB
+            # 7. Tính IDF từ graph đã nạp thành công, không dùng số liệu seed giả định.
+            updated_symptoms = refresh_symptom_idf(repo)
+            print(f"Đã tính IDF cho {updated_symptoms} triệu chứng có cạnh INDICATES.")
+
+            # 8. Thống kê số lượng node và cạnh thực tế trên DB
             counts = repo.get_counts()
             print("\nThống kê bản ghi trên Knowledge Graph hiện tại:")
             print("  --- Nodes ---")

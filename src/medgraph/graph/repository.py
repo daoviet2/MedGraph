@@ -528,6 +528,47 @@ class Neo4jGraphRepository:
 
         return counts
 
+    def get_disease_count(self, tx: Transaction | None = None) -> int:
+        """Đếm mọi Disease hiện có trong graph để làm mẫu số IDF."""
+        if tx is not None:
+            record = tx.run("MATCH (d:Disease) RETURN count(d) AS total").single()
+            return record["total"] if record else 0
+        with self.driver.session() as session:
+            record = session.run("MATCH (d:Disease) RETURN count(d) AS total").single()
+            return record["total"] if record else 0
+
+    def get_symptom_disease_frequencies(self, tx: Transaction | None = None) -> dict[str, int]:
+        """Đếm số Disease khác nhau được mỗi Symptom chỉ tới."""
+        query = """
+        MATCH (s:Symptom)-[:INDICATES]->(d:Disease)
+        RETURN s.id AS symptom_id, count(DISTINCT d) AS frequency
+        """
+        if tx is not None:
+            return {record["symptom_id"]: record["frequency"] for record in tx.run(query)}
+        with self.driver.session() as session:
+            return {record["symptom_id"]: record["frequency"] for record in session.run(query)}
+
+    def update_symptom_idf(
+        self, idf_by_symptom: dict[str, float], tx: Transaction | None = None
+    ) -> int:
+        """Ghi IDF theo lô, dùng id làm khóa để chạy lại an toàn."""
+        if not idf_by_symptom:
+            return 0
+        query = """
+        UNWIND $batch AS row
+        MATCH (s:Symptom {id: row.id})
+        SET s.idf = row.idf
+        """
+        rows = [{"id": symptom_id, "idf": idf} for symptom_id, idf in idf_by_symptom.items()]
+        if tx is not None:
+            for chunk in _chunk_list(rows, self.batch_size):
+                self._execute(query, chunk, tx)
+        else:
+            with self.transaction() as new_tx:
+                for chunk in _chunk_list(rows, self.batch_size):
+                    self._execute(query, chunk, new_tx)
+        return len(rows)
+
 
 class FakeGraphRepository:
     """Hiện thực in-memory của GraphWriteRepository phục vụ unit test độc lập với Neo4j."""
@@ -694,3 +735,21 @@ class FakeGraphRepository:
         for rel_type, items in self.edges.items():
             counts[rel_type] = len(items)
         return counts
+
+    def get_disease_count(self, tx: Any = None) -> int:
+        return len(self.nodes["Disease"])
+
+    def get_symptom_disease_frequencies(self, tx: Any = None) -> dict[str, int]:
+        diseases_by_symptom: dict[str, set[str]] = {}
+        for symptom_id, _, disease_id in self.edges["INDICATES"]:
+            if symptom_id in self.nodes["Symptom"] and disease_id in self.nodes["Disease"]:
+                diseases_by_symptom.setdefault(symptom_id, set()).add(disease_id)
+        return {
+            symptom_id: len(disease_ids) for symptom_id, disease_ids in diseases_by_symptom.items()
+        }
+
+    def update_symptom_idf(self, idf_by_symptom: dict[str, float], tx: Any = None) -> int:
+        for symptom_id, idf in idf_by_symptom.items():
+            if symptom_id in self.nodes["Symptom"]:
+                self.nodes["Symptom"][symptom_id]["idf"] = idf
+        return len(idf_by_symptom)
