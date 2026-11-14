@@ -17,6 +17,7 @@ from typing import Any, Protocol, TypeVar
 
 from neo4j import Driver, Transaction
 
+from medgraph.graph.schema import NodeLabel, RelType
 from medgraph.models.graph_records import (
     ConfirmedByEdge,
     DifferentialOfEdge,
@@ -31,6 +32,7 @@ from medgraph.models.graph_records import (
     SupersededByEdge,
     SymptomRecord,
 )
+from medgraph.models.report import GraphHealthSnapshot, NamedCount
 
 logger = logging.getLogger(__name__)
 
@@ -527,6 +529,65 @@ class Neo4jGraphRepository:
                 counts[r_type] = record["cnt"] if record else 0
 
         return counts
+
+    def read_graph_health(self, tx: Transaction | None = None) -> GraphHealthSnapshot:
+        """Đọc snapshot nhất quán của graph cho báo cáo truy vết nguồn."""
+        if tx is None:
+            with self.transaction() as read_tx:
+                return self._read_graph_health(read_tx)
+        return self._read_graph_health(tx)
+
+    @staticmethod
+    def _read_graph_health(tx: Transaction) -> GraphHealthSnapshot:
+        node_totals = {
+            record["name"]: record["count"]
+            for record in tx.run(
+                "MATCH (n) UNWIND labels(n) AS name RETURN name, count(*) AS count"
+            )
+        }
+        edge_totals = {
+            record["name"]: record["count"]
+            for record in tx.run("MATCH ()-[r]->() RETURN type(r) AS name, count(r) AS count")
+        }
+        provenance_totals = {
+            record["name"]: record["count"]
+            for record in tx.run(
+                "MATCH ()-[r]->() RETURN coalesce(r.provenance, 'missing') AS name, "
+                "count(r) AS count"
+            )
+        }
+        coverage = tx.run(
+            "MATCH ()-[r]->() RETURN count(r) AS total, "
+            "count(CASE WHEN r.source_id IS NOT NULL AND trim(r.source_id) <> '' "
+            "THEN 1 END) AS sourced"
+        ).single()
+        sources = tx.run(
+            "MATCH (s:SourceDoc) RETURN count(s) AS total, "
+            "count(CASE WHEN s.status = 'active' THEN 1 END) AS active"
+        ).single()
+        orphans = tx.run(
+            "MATCH (d:Disease) WHERE NOT EXISTS { "
+            "MATCH (:Symptom)-[:INDICATES]->(d) } RETURN count(d) AS count"
+        ).single()
+        node_names = {label.value for label in NodeLabel} | node_totals.keys()
+        edge_names = {rel.value for rel in RelType} | edge_totals.keys()
+        return GraphHealthSnapshot(
+            node_counts=tuple(
+                NamedCount(name=name, count=node_totals.get(name, 0)) for name in sorted(node_names)
+            ),
+            edge_counts=tuple(
+                NamedCount(name=name, count=edge_totals.get(name, 0)) for name in sorted(edge_names)
+            ),
+            provenance_counts=tuple(
+                NamedCount(name=name, count=count)
+                for name, count in sorted(provenance_totals.items())
+            ),
+            total_edges=coverage["total"] if coverage else 0,
+            edges_with_source=coverage["sourced"] if coverage else 0,
+            total_source_docs=sources["total"] if sources else 0,
+            active_source_docs=sources["active"] if sources else 0,
+            orphan_diseases=orphans["count"] if orphans else 0,
+        )
 
     def get_disease_count(self, tx: Transaction | None = None) -> int:
         """Đếm mọi Disease hiện có trong graph để làm mẫu số IDF."""
