@@ -12,7 +12,14 @@ from medgraph.config.settings import Settings, get_settings
 def test_default_values(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     """Xác nhận các giá trị mặc định được thiết lập đúng khi chỉ truyền các trường bắt buộc."""
     # Xóa sạch biến môi trường có thể gây nhiễu
-    for var in ["NEO4J_URI", "NEO4J_USER", "NEO4J_PASSWORD", "BATCH_SIZE", "LLM_PROVIDER"]:
+    for var in [
+        "NEO4J_URI",
+        "NEO4J_USER",
+        "NEO4J_PASSWORD",
+        "BATCH_SIZE",
+        "LLM_PROVIDER",
+        "FPT_API_KEY",
+    ]:
         monkeypatch.delenv(var, raising=False)
 
     # Sử dụng file yaml và env rỗng
