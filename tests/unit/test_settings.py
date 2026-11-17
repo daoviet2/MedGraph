@@ -36,7 +36,7 @@ def test_default_values(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None
     assert settings.neo4j_password == "test_password"
     assert settings.batch_size == 500
     assert settings.llm_provider == "fake"
-    assert settings.anthropic_api_key is None
+    assert settings.fpt_api_key is None
     assert settings.data_dir == Path("data")
     assert settings.seed_dir == Path("data/seed")
     assert settings.aliases_dir == Path("data/aliases_vi")
@@ -121,9 +121,9 @@ def test_missing_required_fields_raises_validation_error(
 
 
 @pytest.mark.unit
-def test_anthropic_api_key_is_secret_str(tmp_path: Path) -> None:
-    """Xác nhận ANTHROPIC_API_KEY là SecretStr và không bị lộ giá trị trong repr/log."""
-    raw_secret = "sk-ant-secret-key-123456789"
+def test_fpt_api_key_is_secret_str(tmp_path: Path) -> None:
+    """Xác nhận FPT_API_KEY là SecretStr và không bị lộ giá trị trong repr/log."""
+    raw_secret = "test-fpt-secret-key-123456789"
     empty_yaml = tmp_path / "empty.yaml"
     empty_yaml.write_text("", encoding="utf-8")
     empty_env = tmp_path / "empty.env"
@@ -135,17 +135,17 @@ def test_anthropic_api_key_is_secret_str(tmp_path: Path) -> None:
         neo4j_uri="bolt://localhost:7687",
         neo4j_user="neo4j",
         neo4j_password="pwd",
-        anthropic_api_key=raw_secret,
+        fpt_api_key=raw_secret,
     )
 
-    assert isinstance(settings.anthropic_api_key, SecretStr)
+    assert isinstance(settings.fpt_api_key, SecretStr)
     # Không xuất hiện trong str và repr
-    assert raw_secret not in str(settings.anthropic_api_key)
-    assert raw_secret not in repr(settings.anthropic_api_key)
+    assert raw_secret not in str(settings.fpt_api_key)
+    assert raw_secret not in repr(settings.fpt_api_key)
     assert raw_secret not in repr(settings)
-    assert "**********" in str(settings.anthropic_api_key)
+    assert "**********" in str(settings.fpt_api_key)
     # Lấy giá trị thật qua get_secret_value()
-    assert settings.anthropic_api_key.get_secret_value() == raw_secret
+    assert settings.fpt_api_key.get_secret_value() == raw_secret
 
 
 @pytest.mark.unit

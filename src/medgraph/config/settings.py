@@ -39,28 +39,16 @@ class Settings(BaseSettings):
     )
 
     # LLM Configuration
-    llm_provider: Literal["anthropic", "deepseek", "fake"] = Field(
+    llm_provider: Literal["fpt", "fake"] = Field(
         default="fake",
-        description="Nhà cung cấp LLM (anthropic, deepseek hoặc fake)",
+        description="Nhà cung cấp LLM (FPT AI Factory hoặc fake)",
     )
-    anthropic_api_key: SecretStr | None = Field(
+    fpt_api_key: SecretStr | None = Field(
         default=None,
-        description="Khóa API Anthropic (được bảo vệ dưới dạng SecretStr)",
+        description="Khóa API FPT AI Factory (được bảo vệ dưới dạng SecretStr)",
     )
-    deepseek_api_key: SecretStr | None = Field(
-        default=None,
-        description="Khóa API DeepSeek (được bảo vệ dưới dạng SecretStr)",
-    )
-    deepseek_base_url: str = Field(default="https://api.deepseek.com/anthropic")
-    deepseek_model: str = Field(default="deepseek-flash")
-    llm_model_small: str = Field(
-        default="claude-haiku-4-5-20251001",
-        description="Mô hình LLM nhỏ cho trích xuất thực thể và tác vụ nhẹ",
-    )
-    llm_model_large: str = Field(
-        default="claude-sonnet-4-6",
-        description="Mô hình LLM lớn cho suy luận và giải thích",
-    )
+    fpt_base_url: str = Field(default="https://token-api.fpt.ai/v1")
+    fpt_model: str = Field(default="DeepSeek-V4-Flash")
     llm_timeout_seconds: float = Field(default=30.0, gt=0)
     llm_max_tokens: int = Field(default=1024, ge=1)
     llm_retry_attempts: int = Field(default=3, ge=1)

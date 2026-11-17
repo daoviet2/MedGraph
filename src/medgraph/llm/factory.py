@@ -8,12 +8,8 @@ from medgraph.llm.providers.fake import FakeLLMClient
 def create_llm_client(settings: Settings) -> LLMClient:
     if settings.llm_provider == "fake":
         return FakeLLMClient()
-    if settings.llm_provider == "anthropic":
-        from medgraph.llm.providers.anthropic import AnthropicClient
+    if settings.llm_provider == "fpt":
+        from medgraph.llm.providers.fpt import FPTDeepSeekClient
 
-        return AnthropicClient(settings)
-    if settings.llm_provider == "deepseek":
-        from medgraph.llm.providers.deepseek import DeepSeekClient
-
-        return DeepSeekClient(settings)
+        return FPTDeepSeekClient(settings)
     raise ValueError(f"Unsupported LLM_PROVIDER: {settings.llm_provider}")
