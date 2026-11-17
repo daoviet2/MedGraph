@@ -48,13 +48,18 @@ class Settings(BaseSettings):
         description="Khóa API Anthropic (được bảo vệ dưới dạng SecretStr)",
     )
     llm_model_small: str = Field(
-        default="claude-3-haiku-20240307",
+        default="claude-haiku-4-5-20251001",
         description="Mô hình LLM nhỏ cho trích xuất thực thể và tác vụ nhẹ",
     )
     llm_model_large: str = Field(
-        default="claude-3-5-sonnet-20241022",
+        default="claude-sonnet-4-6",
         description="Mô hình LLM lớn cho suy luận và giải thích",
     )
+    llm_timeout_seconds: float = Field(default=30.0, gt=0)
+    llm_max_tokens: int = Field(default=1024, ge=1)
+    llm_retry_attempts: int = Field(default=3, ge=1)
+    llm_retry_min_wait_seconds: float = Field(default=1.0, ge=0)
+    llm_retry_max_wait_seconds: float = Field(default=8.0, ge=0)
 
     # Đường dẫn thư mục dữ liệu & cache (thường nạp từ settings.yaml)
     data_dir: Path = Field(
