@@ -46,11 +46,11 @@ def _response(text: str = "hello") -> httpx.Response:
 def test_fpt_sends_deepseek_model_to_serverless_gateway(monkeypatch: pytest.MonkeyPatch) -> None:
     calls: list[tuple[str, dict[str, object]]] = []
 
-    def fake_post(url: str, **kwargs: object) -> httpx.Response:
+    def fake_post(client: httpx.Client, url: str, **kwargs: object) -> httpx.Response:
         calls.append((url, kwargs))
         return _response()
 
-    monkeypatch.setattr(httpx, "post", fake_post)
+    monkeypatch.setattr(httpx.Client, "post", fake_post)
     client = create_llm_client(_settings(SecretStr("test-fpt-key")))
 
     assert isinstance(client, FPTDeepSeekClient)
@@ -76,7 +76,7 @@ def test_fpt_missing_key_raises_typed_error() -> None:
 
 @pytest.mark.unit
 def test_fpt_structured_output_rejects_invalid_json(monkeypatch: pytest.MonkeyPatch) -> None:
-    monkeypatch.setattr(httpx, "post", lambda *args, **kwargs: _response("not json"))
+    monkeypatch.setattr(httpx.Client, "post", lambda *args, **kwargs: _response("not json"))
     client = FPTDeepSeekClient(_settings(SecretStr("test-fpt-key")))
     with pytest.raises(LLMOutputError):
         client.complete_structured("prompt", ExampleResult, model_tier="small", temperature=0.0)
@@ -93,7 +93,7 @@ def test_fpt_retries_transient_http_errors(monkeypatch: pytest.MonkeyPatch) -> N
             return httpx.Response(429, request=httpx.Request("POST", "https://token-api.fpt.ai/v1"))
         return _response()
 
-    monkeypatch.setattr(httpx, "post", fake_post)
+    monkeypatch.setattr(httpx.Client, "post", fake_post)
     client = FPTDeepSeekClient(
         _settings(
             SecretStr("test-fpt-key"),
@@ -108,7 +108,7 @@ def test_fpt_retries_transient_http_errors(monkeypatch: pytest.MonkeyPatch) -> N
 @pytest.mark.unit
 def test_fpt_rejects_bad_response_shape(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(
-        httpx,
+        httpx.Client,
         "post",
         lambda *args, **kwargs: httpx.Response(
             200, json={"choices": []}, request=httpx.Request("POST", "https://token-api.fpt.ai/v1")
@@ -128,7 +128,7 @@ def test_fpt_rejects_invalid_key_without_retry(monkeypatch: pytest.MonkeyPatch) 
         attempts += 1
         return httpx.Response(401, request=httpx.Request("POST", "https://token-api.fpt.ai/v1"))
 
-    monkeypatch.setattr(httpx, "post", fake_post)
+    monkeypatch.setattr(httpx.Client, "post", fake_post)
     client = FPTDeepSeekClient(_settings(SecretStr("invalid-key")))
     with pytest.raises(LLMError, match="HTTPStatusError"):
         client.complete("prompt", model_tier="small", temperature=0)

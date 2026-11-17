@@ -49,6 +49,7 @@ class Settings(BaseSettings):
     )
     fpt_base_url: str = Field(default="https://mkp-api.fptcloud.com/v1")
     fpt_model: str = Field(default="DeepSeek-V4-Flash")
+    fpt_trust_env: bool = Field(default=True)
     llm_timeout_seconds: float = Field(default=30.0, gt=0)
     llm_max_tokens: int = Field(default=1024, ge=1)
     llm_retry_attempts: int = Field(default=3, ge=1)

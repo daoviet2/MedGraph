@@ -65,26 +65,32 @@ class FPTDeepSeekClient:
         )
         started = perf_counter()
 
-        def send() -> httpx.Response:
-            response = httpx.post(
-                self._url,
-                headers={
-                    "Authorization": f"Bearer {self._settings.fpt_api_key.get_secret_value()}",
-                    "Content-Type": "application/json",
-                },
-                json={
-                    "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "max_tokens": self._settings.llm_max_tokens,
-                    "temperature": temperature,
-                },
-                timeout=self._settings.llm_timeout_seconds,
-            )
-            response.raise_for_status()
-            return response
-
         try:
-            response = retryer(send)
+            with httpx.Client(
+                trust_env=self._settings.fpt_trust_env,
+                timeout=self._settings.llm_timeout_seconds,
+            ) as client:
+
+                def send() -> httpx.Response:
+                    response = client.post(
+                        self._url,
+                        headers={
+                            "Authorization": (
+                                f"Bearer {self._settings.fpt_api_key.get_secret_value()}"
+                            ),
+                            "Content-Type": "application/json",
+                        },
+                        json={
+                            "model": model,
+                            "messages": [{"role": "user", "content": prompt}],
+                            "max_tokens": self._settings.llm_max_tokens,
+                            "temperature": temperature,
+                        },
+                    )
+                    response.raise_for_status()
+                    return response
+
+                response = retryer(send)
         except httpx.HTTPError as exc:
             raise LLMError(f"FPT request failed: {type(exc).__name__}") from exc
 
