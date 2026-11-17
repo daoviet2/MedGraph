@@ -60,7 +60,7 @@ Chỉ làm **nhóm bệnh hô hấp** (khoảng 30 đến 40 bệnh): viêm ph�
 | Graph DB | Neo4j (AuraDB Free hoặc Docker) | Cypher, có Bloom/Browser để trực quan hóa |
 | Vector store | Qdrant (hoặc pgvector, Chroma) | Lưu embedding của chunk tài liệu |
 | Embedding | bge-m3 / multilingual-e5 | Hỗ trợ đa ngôn ngữ, phù hợp tiếng Việt |
-| NER + giải thích | FPT AI Factory (`DeepSeek-V4-Flash`) qua Chat Completions API | Cả hai model tier dùng Flash; output JSON được kiểm tra bằng Pydantic |
+| NER + giải thích | FPT AI Inference (`DeepSeek-V4-Flash`) qua `mkp-api.fptcloud.com/v1/chat/completions` | Cả hai model tier dùng Flash; output JSON được kiểm tra bằng Pydantic |
 | Backend | FastAPI, Pydantic | REST API, kiểm tra schema |
 | Frontend | Streamlit (MVP) | Có thể nâng cấp Next.js sau |
 | Trực quan graph | pyvis / streamlit-agraph | Vẽ subgraph đường suy luận |

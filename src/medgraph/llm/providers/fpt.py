@@ -90,6 +90,8 @@ class FPTDeepSeekClient:
 
         try:
             body = response.json()
+            if "data" in body:
+                body = body["data"]
             content = body["choices"][0]["message"]["content"]
             if not isinstance(content, str) or not content:
                 raise LLMOutputError("FPT response contains no text")

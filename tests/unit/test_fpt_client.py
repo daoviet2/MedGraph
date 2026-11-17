@@ -30,11 +30,15 @@ def _response(text: str = "hello") -> httpx.Response:
     return httpx.Response(
         200,
         json={
-            "choices": [{"message": {"content": text}}],
-            "model": "DeepSeek-V4-Flash",
-            "usage": {"prompt_tokens": 3, "completion_tokens": 2},
+            "code": 200,
+            "message": "Chat completion successful",
+            "data": {
+                "choices": [{"message": {"content": text}}],
+                "model": "DeepSeek-V4-Flash",
+                "usage": {"prompt_tokens": 3, "completion_tokens": 2},
+            },
         },
-        request=httpx.Request("POST", "https://token-api.fpt.ai/v1/chat/completions"),
+        request=httpx.Request("POST", "https://mkp-api.fptcloud.com/v1/chat/completions"),
     )
 
 
@@ -59,7 +63,7 @@ def test_fpt_sends_deepseek_model_to_serverless_gateway(monkeypatch: pytest.Monk
     assert response.model == "DeepSeek-V4-Flash"
     assert response.input_tokens == 3
     assert response.output_tokens == 2
-    assert calls[0][0] == "https://token-api.fpt.ai/v1/chat/completions"
+    assert calls[0][0] == "https://mkp-api.fptcloud.com/v1/chat/completions"
     assert calls[0][1]["headers"]["Authorization"] == "Bearer test-fpt-key"
     assert calls[0][1]["json"]["model"] == "DeepSeek-V4-Flash"
 
