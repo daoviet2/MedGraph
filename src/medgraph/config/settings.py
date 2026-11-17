@@ -39,14 +39,20 @@ class Settings(BaseSettings):
     )
 
     # LLM Configuration
-    llm_provider: Literal["anthropic", "fake"] = Field(
+    llm_provider: Literal["anthropic", "deepseek", "fake"] = Field(
         default="fake",
-        description="Nhà cung cấp LLM (anthropic hoặc fake)",
+        description="Nhà cung cấp LLM (anthropic, deepseek hoặc fake)",
     )
     anthropic_api_key: SecretStr | None = Field(
         default=None,
         description="Khóa API Anthropic (được bảo vệ dưới dạng SecretStr)",
     )
+    deepseek_api_key: SecretStr | None = Field(
+        default=None,
+        description="Khóa API DeepSeek (được bảo vệ dưới dạng SecretStr)",
+    )
+    deepseek_base_url: str = Field(default="https://api.deepseek.com/anthropic")
+    deepseek_model: str = Field(default="deepseek-flash")
     llm_model_small: str = Field(
         default="claude-haiku-4-5-20251001",
         description="Mô hình LLM nhỏ cho trích xuất thực thể và tác vụ nhẹ",

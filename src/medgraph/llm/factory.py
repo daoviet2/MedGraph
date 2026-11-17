@@ -12,4 +12,8 @@ def create_llm_client(settings: Settings) -> LLMClient:
         from medgraph.llm.providers.anthropic import AnthropicClient
 
         return AnthropicClient(settings)
+    if settings.llm_provider == "deepseek":
+        from medgraph.llm.providers.deepseek import DeepSeekClient
+
+        return DeepSeekClient(settings)
     raise ValueError(f"Unsupported LLM_PROVIDER: {settings.llm_provider}")

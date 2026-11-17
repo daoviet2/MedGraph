@@ -11,6 +11,7 @@ from anthropic import (
     InternalServerError,
     RateLimitError,
 )
+from pydantic import SecretStr
 from tenacity import Retrying, retry_if_exception, stop_after_attempt, wait_exponential
 
 from medgraph.config.settings import Settings
@@ -30,29 +31,43 @@ def _is_retryable(error: BaseException) -> bool:
     )
 
 
-class AnthropicClient:
-    """Bọc Anthropic SDK; tenacity quản lý retry, SDK retry được tắt."""
+class AnthropicMessagesClient:
+    """Adapter chung cho endpoint Anthropic Messages tương thích."""
 
-    def __init__(self, settings: Settings) -> None:
-        api_key = settings.anthropic_api_key
+    def __init__(
+        self,
+        settings: Settings,
+        *,
+        api_key: SecretStr | None,
+        provider_name: str,
+        model_small: str,
+        model_large: str,
+        base_url: str | None = None,
+    ) -> None:
         if api_key is None or not api_key.get_secret_value().strip():
-            raise LLMError("ANTHROPIC_API_KEY is required for anthropic provider")
+            raise LLMError(
+                f"{provider_name.upper()}_API_KEY is required for {provider_name} provider"
+            )
         self._settings = settings
+        self._provider_name = provider_name
+        self._model_small = model_small
+        self._model_large = model_large
         self._client = Anthropic(
             api_key=api_key.get_secret_value(),
+            base_url=base_url,
             timeout=settings.llm_timeout_seconds,
             max_retries=0,
         )
 
     @property
     def provider(self) -> str:
-        return "anthropic"
+        return self._provider_name
 
     def model_for_tier(self, model_tier: ModelTier) -> str:
         if model_tier == "small":
-            return self._settings.llm_model_small
+            return self._model_small
         if model_tier == "large":
-            return self._settings.llm_model_large
+            return self._model_large
         raise ValueError(f"Unknown model tier: {model_tier}")
 
     def complete(
@@ -85,11 +100,11 @@ class AnthropicClient:
                 messages=[{"role": "user", "content": prompt}],
             )
         except APIError as exc:
-            raise LLMError(f"Anthropic request failed: {type(exc).__name__}") from exc
+            raise LLMError(f"{self.provider} request failed: {type(exc).__name__}") from exc
 
         text = "".join(block.text for block in message.content if block.type == "text")
         if not text:
-            raise LLMOutputError("Anthropic response contains no text")
+            raise LLMOutputError(f"{self.provider} response contains no text")
         return LLMResponse(
             text=text,
             model=message.model,
@@ -118,3 +133,16 @@ class AnthropicClient:
             prompt_version=prompt_version,
         )
         return parse_structured_response(response.text, schema)
+
+
+class AnthropicClient(AnthropicMessagesClient):
+    """Adapter cho Claude API qua Anthropic SDK."""
+
+    def __init__(self, settings: Settings) -> None:
+        super().__init__(
+            settings,
+            api_key=settings.anthropic_api_key,
+            provider_name="anthropic",
+            model_small=settings.llm_model_small,
+            model_large=settings.llm_model_large,
+        )

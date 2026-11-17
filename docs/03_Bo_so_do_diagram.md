@@ -15,7 +15,7 @@ Thứ tự gọi giữa các thành phần cho một lượt phân tích. Các b
 
 ## 3. Kiến trúc thành phần
 
-Backend chia module theo trách nhiệm. Chỉ module llm/ gọi Claude API, giúp dễ thay mô hình và kiểm soát chi phí. Hai file hợp đồng (schemas.py, schema.cypher) được đóng băng sớm để mọi module trao đổi qua giao diện ổn định; validator nằm riêng để kiểm thử độc lập.
+Backend chia module theo trách nhiệm. Chỉ module llm/ gọi DeepSeek API qua adapter, giúp dễ thay mô hình và kiểm soát chi phí. Hai file hợp đồng (schemas.py, schema.cypher) được đóng băng sớm để mọi module trao đổi qua giao diện ổn định; validator nằm riêng để kiểm thử độc lập.
 
 
 ## 4. Luồng xây dựng dữ liệu (offline)

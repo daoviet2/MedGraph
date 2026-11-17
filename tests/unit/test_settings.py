@@ -44,8 +44,9 @@ def test_default_values(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None
 
 
 @pytest.mark.unit
-def test_yaml_overrides_default(tmp_path: Path) -> None:
+def test_yaml_overrides_default(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     """Xác nhận cấu hình từ settings.yaml ghi đè lên giá trị mặc định."""
+    monkeypatch.delenv("LLM_PROVIDER", raising=False)
     custom_yaml = tmp_path / "custom.yaml"
     custom_yaml.write_text(
         "batch_size: 250\ndata_dir: custom_data\nneo4j_max_connection_pool_size: 100\n",
