@@ -1,0 +1,77 @@
+entity_id,entity_type,alias,alias_norm,model,prompt_version,generated_at,review_status,reviewer_note,source_id,provenance
+ICD10:J18.9,disease,bệnh viêm phổi,benh viem phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_PNEUMONIA_2020,auto_extracted
+ICD10:J18.9,disease,viêm phổi do nhiễm trùng,viem phoi do nhiem trung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_PNEUMONIA_2020,auto_extracted
+ICD10:J20.9,disease,viêm ống phế quản cấp,viem ong phe quan cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J20.9,disease,sưng phế quản cấp,sung phe quan cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J21.9,disease,viêm phế quản nhỏ cấp,viem phe quan nho cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J21.9,disease,viêm cuống phổi cấp,viem cuong phoi cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J85.2,disease,phổi có mủ,phoi co mu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J85.2,disease,phổi bị mủ,phoi bi mu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J47.0,disease,giãn phế quản bị nhiễm trùng,gian phe quan bi nhiem trung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J47.0,disease,giãn phế quản đang nhiễm trùng,gian phe quan dang nhiem trung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:A15.0,disease,bệnh lao phổi,benh lao phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:WHO_TB_2022,auto_extracted
+ICD10:J10.1,disease,cúm có biến chứng hô hấp,cum co bien chung ho hap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J10.1,disease,cúm biến chứng phổi,cum bien chung phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:U07.1,disease,bệnh covid,benh covid,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:U07.1,disease,bệnh corona,benh corona,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:U07.1,disease,dịch covid,dich covid,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J45.9,disease,bệnh hen,benh hen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_ASTHMA_2020,auto_extracted
+ICD10:J45.9,disease,lên cơn hen,len con hen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_ASTHMA_2020,auto_extracted
+ICD10:J45.9,disease,hen,hen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_ASTHMA_2020,auto_extracted
+ICD10:J46,disease,lên cơn hen,len con hen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_ASTHMA_2020,auto_extracted
+ICD10:J46,disease,lên cơn suyễn,len con suyen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_ASTHMA_2020,auto_extracted
+ICD10:J46,disease,hen phế quản cấp,hen phe quan cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_ASTHMA_2020,auto_extracted
+ICD10:J44.9,disease,bệnh phổi tắc nghẽn mạn,benh phoi tac nghen man,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_COPD_2023,auto_extracted
+ICD10:J44.1,disease,bệnh phổi tắc nghẽn mạn tính lên cơn,benh phoi tac nghen man tinh len con,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_COPD_2023,auto_extracted
+ICD10:J44.1,disease,cơn cấp của bệnh phổi tắc nghẽn mạn tính,con cap cua benh phoi tac nghen man tinh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_COPD_2023,auto_extracted
+ICD10:I26.9,disease,tắc nghẽn mạch máu phổi,tac nghen mach mau phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:I26.9,disease,cục máu đông trong phổi,cuc mau dong trong phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J93.9,disease,khí vào màng phổi,khi vao mang phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J93.9,disease,hơi trong lồng ngực,hoi trong long nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J90,disease,dịch trong màng phổi,dich trong mang phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J90,disease,nước trong phổi,nuoc trong phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J81,disease,phù phổi,phu phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J81,disease,phổi ứ nước,phoi u nuoc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J80,disease,suy hô hấp cấp,suy ho hap cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J80,disease,hội chứng suy hô hấp cấp,hoi chung suy ho hap cap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J00,disease,cảm,cam,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J00,disease,sổ mũi,so mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J00,disease,cảm lạnh thông thường,cam lanh thong thuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J01.9,disease,viêm xoang,viem xoang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J01.9,disease,xoang bị viêm,xoang bi viem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J02.9,disease,viêm họng,viem hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J02.9,disease,họng bị viêm,hong bi viem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J03.9,disease,viêm họng amidan,viem hong amidan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J03.9,disease,đau họng do amidan,dau hong do amidan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J04.0,disease,viêm họng thanh quản,viem hong thanh quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J04.0,disease,đau rát cổ họng mất tiếng,dau rat co hong mat tieng,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J05.0,disease,bệnh ho ông ổng,benh ho ong ong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J05.0,disease,viêm thanh quản khí quản phế quản,viem thanh quan khi quan phe quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J05.1,disease,viêm nắp thanh quản,viem nap thanh quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J05.1,disease,sưng nắp thanh quản,sung nap thanh quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:T17.9,disease,dị vật rơi vào đường thở,di vat roi vao duong tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MANUAL_CURATION,auto_extracted
+ICD10:T17.9,disease,dị vật trong khí quản,di vat trong khi quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MANUAL_CURATION,auto_extracted
+ICD10:T17.9,disease,dị vật trong phế quản,di vat trong phe quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MANUAL_CURATION,auto_extracted
+ICD10:J84.1,disease,xơ hóa phổi không rõ nguyên nhân,xo hoa phoi khong ro nguyen nhan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J84.1,disease,bệnh xơ phổi không rõ nguyên nhân,benh xo phoi khong ro nguyen nhan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J67.9,disease,viêm phổi do dị ứng,viem phoi do di ung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J67.9,disease,viêm phổi dị ứng,viem phoi di ung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J62.8,disease,bệnh bụi phổi,benh bui phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J62.8,disease,bệnh phổi do bụi đá,benh phoi do bui da,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:J69.0,disease,viêm phổi do hít,viem phoi do hit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_PNEUMONIA_2020,auto_extracted
+ICD10:J69.0,disease,viêm phổi do sặc,viem phoi do sac,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_PNEUMONIA_2020,auto_extracted
+ICD10:J69.0,disease,viêm phổi hít,viem phoi hit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_PNEUMONIA_2020,auto_extracted
+ICD10:J69.0,disease,viêm phổi sặc thức ăn,viem phoi sac thuc an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:BYT_PNEUMONIA_2020,auto_extracted
+ICD10:K21.9,disease,trào ngược dạ dày thực quản,trao nguoc da day thuc quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:K21.9,disease,bệnh trào ngược,benh trao nguoc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:K21.9,disease,trào ngược dạ dày thực quản gây ho,trao nguoc da day thuc quan gay ho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:R05.3,disease,ho do chảy dịch mũi sau,ho do chay dich mui sau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:R05.3,disease,ho do dịch mũi chảy xuống họng,ho do dich mui chay xuong hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:T88.7,disease,ho do thuốc trị huyết áp,ho do thuoc tri huyet ap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MANUAL_CURATION,auto_extracted
+ICD10:T88.7,disease,ho do thuốc huyết áp,ho do thuoc huyet ap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MANUAL_CURATION,auto_extracted
+ICD10:I50.9,disease,tim yếu gây khó thở,tim yeu gay kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:I50.9,disease,suy tim gây khó thở,suy tim gay kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:F41.0,disease,cơn hoảng sợ kèm thở gấp,con hoang so kem tho gap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:F41.0,disease,hoảng loạn kèm thở nhanh,hoang loan kem tho nhanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:C34.9,disease,ung thư phế quản,ung thu phe quan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
+ICD10:C34.9,disease,ung thư cuống phổi,ung thu cuong phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:MEDLINEPLUS,auto_extracted
