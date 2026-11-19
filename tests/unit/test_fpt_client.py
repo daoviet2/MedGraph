@@ -75,6 +75,20 @@ def test_fpt_missing_key_raises_typed_error() -> None:
 
 
 @pytest.mark.unit
+def test_fpt_can_disable_thinking_for_short_alias_output(monkeypatch: pytest.MonkeyPatch) -> None:
+    payloads: list[dict[str, object]] = []
+
+    def fake_post(client: httpx.Client, url: str, **kwargs: object) -> httpx.Response:
+        payloads.append(kwargs["json"])
+        return _response()
+
+    monkeypatch.setattr(httpx.Client, "post", fake_post)
+    client = FPTDeepSeekClient(_settings(SecretStr("test-fpt-key"), fpt_thinking="disabled"))
+    client.complete("prompt", model_tier="small", temperature=0.0)
+    assert payloads[0]["thinking"] == {"type": "disabled"}
+
+
+@pytest.mark.unit
 def test_fpt_structured_output_rejects_invalid_json(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(httpx.Client, "post", lambda *args, **kwargs: _response("not json"))
     client = FPTDeepSeekClient(_settings(SecretStr("test-fpt-key")))

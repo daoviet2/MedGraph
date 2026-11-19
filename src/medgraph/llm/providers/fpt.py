@@ -72,6 +72,14 @@ class FPTDeepSeekClient:
             ) as client:
 
                 def send() -> httpx.Response:
+                    payload = {
+                        "model": model,
+                        "messages": [{"role": "user", "content": prompt}],
+                        "max_tokens": self._settings.llm_max_tokens,
+                        "temperature": temperature,
+                    }
+                    if self._settings.fpt_thinking is not None:
+                        payload["thinking"] = {"type": self._settings.fpt_thinking}
                     response = client.post(
                         self._url,
                         headers={
@@ -80,12 +88,7 @@ class FPTDeepSeekClient:
                             ),
                             "Content-Type": "application/json",
                         },
-                        json={
-                            "model": model,
-                            "messages": [{"role": "user", "content": prompt}],
-                            "max_tokens": self._settings.llm_max_tokens,
-                            "temperature": temperature,
-                        },
+                        json=payload,
                     )
                     response.raise_for_status()
                     return response
