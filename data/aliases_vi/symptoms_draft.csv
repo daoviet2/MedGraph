@@ -1,144 +1,144 @@
 entity_id,entity_type,alias,alias_norm,model,prompt_version,generated_at,review_status,reviewer_note,source_id,provenance
-HP:0012735,symptom,húng hắng,hung hang,DeepSeek-V4-Flash,v1,2026-11-19T14:56:29+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012735,symptom,ho húng hắng,ho hung hang,DeepSeek-V4-Flash,v1,2026-11-19T14:56:29+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012735,symptom,ho khù khụ,ho khu khu,DeepSeek-V4-Flash,v1,2026-11-19T14:56:29+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031246,symptom,ho rát họng,ho rat hong,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031245,symptom,ho ướt,ho uot,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031245,symptom,ho có đàm,ho co dam,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025425,symptom,ho lâu ngày,ho lau ngay,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025425,symptom,ho kéo dài,ho keo dai,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025425,symptom,ho lâu không khỏi,ho lau khong khoi,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031246,symptom,ho không đờm,ho khong dom,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031246,symptom,ho khan không đờm,ho khan khong dom,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031245,symptom,ho đàm,ho dam,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031245,symptom,ho khạc đàm,ho khac dam,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025425,symptom,ho không dứt,ho khong dut,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033431,symptom,ho từng cơn,ho tung con,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033431,symptom,cơn ho dữ dội,con ho du doi,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033431,symptom,ho dồn dập,ho don dap,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033431,symptom,lên cơn ho,len con ho,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012735,symptom,ho sặc sụa,ho sac sua,DeepSeek-V4-Flash,v1,2026-11-19T15:02:37+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031246,symptom,ho tiếng khan,ho tieng khan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:37+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033431,symptom,ho từng hồi,ho tung hoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025426,symptom,ho khan ông ổng,ho khan ong ong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025426,symptom,ho như tiếng chó sủa,ho nhu tieng cho sua,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002105,symptom,khạc máu,khac mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002105,symptom,ho có máu,ho co mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002105,symptom,ho ra đờm lẫn máu,ho ra dom lan mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002094,symptom,thở dốc,tho doc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002094,symptom,hít thở khó,hit tho kho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002094,symptom,thở không nổi,tho khong noi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025440,symptom,khó thở lúc nghỉ ngơi,kho tho luc nghi ngoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025440,symptom,khó thở cả khi nghỉ ngơi,kho tho ca khi nghi ngoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025440,symptom,nghỉ ngơi cũng khó thở,nghi ngoi cung kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025440,symptom,ngồi không cũng khó thở,ngoi khong cung kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025440,symptom,hụt hơi khi nghỉ ngơi,hut hoi khi nghi ngoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002875,symptom,khó thở khi vận động,kho tho khi van dong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002875,symptom,khó thở khi hoạt động mạnh,kho tho khi hoat dong manh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002875,symptom,thở dốc khi gắng sức,tho doc khi gang suc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002875,symptom,hụt hơi khi gắng sức,hut hoi khi gang suc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002875,symptom,khó thở khi làm việc nặng,kho tho khi lam viec nang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012764,symptom,khó thở khi nằm xuống,kho tho khi nam xuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012764,symptom,nằm xuống là khó thở,nam xuong la kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012764,symptom,phải ngồi mới thở được,phai ngoi moi tho duoc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025439,symptom,khó thở đột ngột về đêm,kho tho dot ngot ve dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025439,symptom,cơn khó thở về đêm,con kho tho ve dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025439,symptom,lên cơn khó thở ban đêm,len con kho tho ban dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002789,symptom,thở hổn hển,tho hon hen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002113,symptom,thở chậm,tho cham,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002113,symptom,thở yếu ớt,tho yeu ot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002104,symptom,ngưng thở,ngung tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002104,symptom,thở ngưng,tho ngung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030829,symptom,thở bất thường,tho bat thuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030829,symptom,thở rít,tho rit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030828,symptom,khò khè,kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030828,symptom,thở có tiếng khò khè,tho co tieng kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0010307,symptom,thở rít,tho rit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0010307,symptom,tiếng thở rít,tieng tho rit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0010307,symptom,thở rít khi hít vào,tho rit khi hit vao,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030830,symptom,tiếng lục khục trong phổi,tieng luc khuc trong phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030830,symptom,tiếng kêu lép bép ở phổi,tieng keu lep bep o phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030831,symptom,tiếng khò khè,tieng kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030831,symptom,tiếng thở khò khè,tieng tho kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0000961,symptom,tím tái đầu chi,tim tai dau chi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0000961,symptom,xanh tím môi và đầu ngón tay,xanh tim moi va dau ngon tay,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012418,symptom,thiếu oxy trong máu,thieu oxy trong mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012418,symptom,nồng độ oxy máu thấp,nong do oxy mau thap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012767,symptom,ngạt thở cấp tính,ngat tho cap tinh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012767,symptom,ngạt thở đột ngột,ngat tho dot ngot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0100749,symptom,đau tức ngực,dau tuc nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0100749,symptom,đau ngực nhói,dau nguc nhoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031247,symptom,đau ngực nhói khi thở,dau nguc nhoi khi tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031247,symptom,đau ngực theo nhịp thở,dau nguc theo nhip tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025428,symptom,nặng tức ngực,nang tuc nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025428,symptom,tức ngực nặng,tuc nguc nang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033050,symptom,đau rát cổ họng,dau rat co hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033050,symptom,bỏng rát họng,bong rat hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033050,symptom,cổ họng rát bỏng,co hong rat bong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002746,symptom,họng đỏ,hong do,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002746,symptom,niêm mạc họng đỏ,niem mac hong do,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002746,symptom,đỏ họng,do hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002015,symptom,nghẹn khi nuốt,nghen khi nuot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002015,symptom,khó nuốt thức ăn,kho nuot thuc an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0100763,symptom,đau khi nuốt,dau khi nuot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0100763,symptom,nuốt đau,nuot dau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001609,symptom,giọng khàn,giong khan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001609,symptom,nói khàn,noi khan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001742,symptom,bị nghẹt mũi,bi nghet mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001742,symptom,nghẹt lỗ mũi,nghet lo mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033834,symptom,nhảy mũi,nhay mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0033834,symptom,xì hơi,xi hoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0000458,symptom,không ngửi được mùi,khong ngui duoc mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0000458,symptom,mất cảm giác mùi,mat cam giac mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031248,symptom,chảy nước mũi ra sau cổ,chay nuoc mui ra sau co,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031248,symptom,dịch mũi chảy ngược xuống họng,dich mui chay nguoc xuong hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002307,symptom,há miệng chảy dãi,ha mieng chay dai,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025427,symptom,đờm vàng xanh,dom vang xanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025427,symptom,đờm mủ vàng xanh,dom mu vang xanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031249,symptom,đờm hôi thối,dom hoi thoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031249,symptom,đờm có mùi hôi thối,dom co mui hoi thoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031250,symptom,đờm bọt hồng,dom bot hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001945,symptom,sốt nóng,sot nong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001945,symptom,lên cơn sốt,len con sot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001954,symptom,sốt cao không hạ,sot cao khong ha,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001954,symptom,sốt cao dai dẳng,sot cao dai dang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025429,symptom,sốt về chiều,sot ve chieu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0025429,symptom,sốt chiều,sot chieu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031251,symptom,rét run,ret run,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031251,symptom,gai rét,gai ret,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030282,symptom,đổ mồ hôi đêm,do mo hoi dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0030282,symptom,ra mồ hôi ban đêm,ra mo hoi ban dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012378,symptom,mệt mỏi,met moi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0012378,symptom,kiệt sức,kiet suc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001824,symptom,sụt cân không rõ nguyên nhân,sut can khong ro nguyen nhan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001824,symptom,sụt cân bất thường,sut can bat thuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0004396,symptom,mất cảm giác thèm ăn,mat cam giac them an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0004396,symptom,không muốn ăn,khong muon an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0003326,symptom,đau nhức toàn thân,dau nhuc toan than,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0003326,symptom,mỏi toàn thân,moi toan than,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002315,symptom,đau đầu,dau dau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002315,symptom,nhức đầu,nhuc dau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002102,symptom,thở rút lõm ngực,tho rut lom nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002102,symptom,rút lõm hõm ức,rut lom hom uc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002102,symptom,co kéo lồng ngực,co keo long nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0004495,symptom,mũi phập phồng khi thở,mui phap phong khi tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001289,symptom,rối loạn ý thức,roi loan y thuc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001289,symptom,lơ mơ,lo mo,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001289,symptom,lú lẫn,lu lan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001279,symptom,ngất,ngat,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001279,symptom,xỉu,xiu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001279,symptom,bất tỉnh,bat tinh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002615,symptom,tụt huyết áp,tut huyet ap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002615,symptom,huyết áp thấp,huyet ap thap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001662,symptom,nhịp tim nhanh,nhip tim nhanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001662,symptom,tim đập nhanh,tim dap nhanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002883,symptom,thở gấp sâu,tho gap sau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002883,symptom,thở nhanh và sâu,tho nhanh va sau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0001217,symptom,ngón tay hình dùi trống,ngon tay hinh dui trong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0003401,symptom,tê cóng đầu chi,te cong dau chi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0003401,symptom,tê bì tay chân,te bi tay chan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002020,symptom,nóng rát sau xương ức,nong rat sau xuong uc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0002020,symptom,cảm giác bỏng rát ngực,cam giac bong rat nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031253,symptom,trào ngược a-xít,trao nguoc a-xit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031253,symptom,trào ngược dạ dày,trao nguoc da day,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
-HP:0031253,symptom,trào ngược a-xít dạ dày,trao nguoc a-xit da day,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,pending,,SRC:HPO,auto_extracted
+HP:0012735,symptom,húng hắng,hung hang,DeepSeek-V4-Flash,v1,2026-11-19T14:56:29+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012735,symptom,ho húng hắng,ho hung hang,DeepSeek-V4-Flash,v1,2026-11-19T14:56:29+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012735,symptom,ho khù khụ,ho khu khu,DeepSeek-V4-Flash,v1,2026-11-19T14:56:29+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031246,symptom,ho rát họng,ho rat hong,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031245,symptom,ho ướt,ho uot,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031245,symptom,ho có đàm,ho co dam,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025425,symptom,ho lâu ngày,ho lau ngay,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025425,symptom,ho kéo dài,ho keo dai,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025425,symptom,ho lâu không khỏi,ho lau khong khoi,DeepSeek-V4-Flash,v1,2026-11-19T14:56:46+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031246,symptom,ho không đờm,ho khong dom,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031246,symptom,ho khan không đờm,ho khan khong dom,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031245,symptom,ho đàm,ho dam,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031245,symptom,ho khạc đàm,ho khac dam,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025425,symptom,ho không dứt,ho khong dut,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033431,symptom,ho từng cơn,ho tung con,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033431,symptom,cơn ho dữ dội,con ho du doi,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033431,symptom,ho dồn dập,ho don dap,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033431,symptom,lên cơn ho,len con ho,DeepSeek-V4-Flash,v1,2026-11-19T15:00:17+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012735,symptom,ho sặc sụa,ho sac sua,DeepSeek-V4-Flash,v1,2026-11-19T15:02:37+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031246,symptom,ho tiếng khan,ho tieng khan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:37+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033431,symptom,ho từng hồi,ho tung hoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025426,symptom,ho khan ông ổng,ho khan ong ong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025426,symptom,ho như tiếng chó sủa,ho nhu tieng cho sua,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002105,symptom,khạc máu,khac mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002105,symptom,ho có máu,ho co mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002105,symptom,ho ra đờm lẫn máu,ho ra dom lan mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002094,symptom,thở dốc,tho doc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002094,symptom,hít thở khó,hit tho kho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002094,symptom,thở không nổi,tho khong noi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025440,symptom,khó thở lúc nghỉ ngơi,kho tho luc nghi ngoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025440,symptom,khó thở cả khi nghỉ ngơi,kho tho ca khi nghi ngoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025440,symptom,nghỉ ngơi cũng khó thở,nghi ngoi cung kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025440,symptom,ngồi không cũng khó thở,ngoi khong cung kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025440,symptom,hụt hơi khi nghỉ ngơi,hut hoi khi nghi ngoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002875,symptom,khó thở khi vận động,kho tho khi van dong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002875,symptom,khó thở khi hoạt động mạnh,kho tho khi hoat dong manh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002875,symptom,thở dốc khi gắng sức,tho doc khi gang suc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002875,symptom,hụt hơi khi gắng sức,hut hoi khi gang suc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002875,symptom,khó thở khi làm việc nặng,kho tho khi lam viec nang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012764,symptom,khó thở khi nằm xuống,kho tho khi nam xuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012764,symptom,nằm xuống là khó thở,nam xuong la kho tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012764,symptom,phải ngồi mới thở được,phai ngoi moi tho duoc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025439,symptom,khó thở đột ngột về đêm,kho tho dot ngot ve dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025439,symptom,cơn khó thở về đêm,con kho tho ve dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025439,symptom,lên cơn khó thở ban đêm,len con kho tho ban dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002789,symptom,thở hổn hển,tho hon hen,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002113,symptom,thở chậm,tho cham,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002113,symptom,thở yếu ớt,tho yeu ot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002104,symptom,ngưng thở,ngung tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002104,symptom,thở ngưng,tho ngung,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030829,symptom,thở bất thường,tho bat thuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030829,symptom,thở rít,tho rit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030828,symptom,khò khè,kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030828,symptom,thở có tiếng khò khè,tho co tieng kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0010307,symptom,thở rít,tho rit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0010307,symptom,tiếng thở rít,tieng tho rit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0010307,symptom,thở rít khi hít vào,tho rit khi hit vao,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030830,symptom,tiếng lục khục trong phổi,tieng luc khuc trong phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030830,symptom,tiếng kêu lép bép ở phổi,tieng keu lep bep o phoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030831,symptom,tiếng khò khè,tieng kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030831,symptom,tiếng thở khò khè,tieng tho kho khe,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0000961,symptom,tím tái đầu chi,tim tai dau chi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0000961,symptom,xanh tím môi và đầu ngón tay,xanh tim moi va dau ngon tay,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012418,symptom,thiếu oxy trong máu,thieu oxy trong mau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012418,symptom,nồng độ oxy máu thấp,nong do oxy mau thap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012767,symptom,ngạt thở cấp tính,ngat tho cap tinh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012767,symptom,ngạt thở đột ngột,ngat tho dot ngot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0100749,symptom,đau tức ngực,dau tuc nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0100749,symptom,đau ngực nhói,dau nguc nhoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031247,symptom,đau ngực nhói khi thở,dau nguc nhoi khi tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031247,symptom,đau ngực theo nhịp thở,dau nguc theo nhip tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025428,symptom,nặng tức ngực,nang tuc nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025428,symptom,tức ngực nặng,tuc nguc nang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033050,symptom,đau rát cổ họng,dau rat co hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033050,symptom,bỏng rát họng,bong rat hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033050,symptom,cổ họng rát bỏng,co hong rat bong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002746,symptom,họng đỏ,hong do,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002746,symptom,niêm mạc họng đỏ,niem mac hong do,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002746,symptom,đỏ họng,do hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002015,symptom,nghẹn khi nuốt,nghen khi nuot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002015,symptom,khó nuốt thức ăn,kho nuot thuc an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0100763,symptom,đau khi nuốt,dau khi nuot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0100763,symptom,nuốt đau,nuot dau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001609,symptom,giọng khàn,giong khan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001609,symptom,nói khàn,noi khan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001742,symptom,bị nghẹt mũi,bi nghet mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001742,symptom,nghẹt lỗ mũi,nghet lo mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033834,symptom,nhảy mũi,nhay mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0033834,symptom,xì hơi,xi hoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0000458,symptom,không ngửi được mùi,khong ngui duoc mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0000458,symptom,mất cảm giác mùi,mat cam giac mui,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031248,symptom,chảy nước mũi ra sau cổ,chay nuoc mui ra sau co,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031248,symptom,dịch mũi chảy ngược xuống họng,dich mui chay nguoc xuong hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002307,symptom,há miệng chảy dãi,ha mieng chay dai,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025427,symptom,đờm vàng xanh,dom vang xanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025427,symptom,đờm mủ vàng xanh,dom mu vang xanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031249,symptom,đờm hôi thối,dom hoi thoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031249,symptom,đờm có mùi hôi thối,dom co mui hoi thoi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031250,symptom,đờm bọt hồng,dom bot hong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001945,symptom,sốt nóng,sot nong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001945,symptom,lên cơn sốt,len con sot,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001954,symptom,sốt cao không hạ,sot cao khong ha,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001954,symptom,sốt cao dai dẳng,sot cao dai dang,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025429,symptom,sốt về chiều,sot ve chieu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0025429,symptom,sốt chiều,sot chieu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031251,symptom,rét run,ret run,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031251,symptom,gai rét,gai ret,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030282,symptom,đổ mồ hôi đêm,do mo hoi dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0030282,symptom,ra mồ hôi ban đêm,ra mo hoi ban dem,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012378,symptom,mệt mỏi,met moi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0012378,symptom,kiệt sức,kiet suc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001824,symptom,sụt cân không rõ nguyên nhân,sut can khong ro nguyen nhan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001824,symptom,sụt cân bất thường,sut can bat thuong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0004396,symptom,mất cảm giác thèm ăn,mat cam giac them an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0004396,symptom,không muốn ăn,khong muon an,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0003326,symptom,đau nhức toàn thân,dau nhuc toan than,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0003326,symptom,mỏi toàn thân,moi toan than,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002315,symptom,đau đầu,dau dau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002315,symptom,nhức đầu,nhuc dau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002102,symptom,thở rút lõm ngực,tho rut lom nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002102,symptom,rút lõm hõm ức,rut lom hom uc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002102,symptom,co kéo lồng ngực,co keo long nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0004495,symptom,mũi phập phồng khi thở,mui phap phong khi tho,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001289,symptom,rối loạn ý thức,roi loan y thuc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001289,symptom,lơ mơ,lo mo,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001289,symptom,lú lẫn,lu lan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001279,symptom,ngất,ngat,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001279,symptom,xỉu,xiu,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001279,symptom,bất tỉnh,bat tinh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002615,symptom,tụt huyết áp,tut huyet ap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002615,symptom,huyết áp thấp,huyet ap thap,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001662,symptom,nhịp tim nhanh,nhip tim nhanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001662,symptom,tim đập nhanh,tim dap nhanh,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002883,symptom,thở gấp sâu,tho gap sau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002883,symptom,thở nhanh và sâu,tho nhanh va sau,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0001217,symptom,ngón tay hình dùi trống,ngon tay hinh dui trong,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0003401,symptom,tê cóng đầu chi,te cong dau chi,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0003401,symptom,tê bì tay chân,te bi tay chan,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002020,symptom,nóng rát sau xương ức,nong rat sau xuong uc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0002020,symptom,cảm giác bỏng rát ngực,cam giac bong rat nguc,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031253,symptom,trào ngược a-xít,trao nguoc a-xit,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031253,symptom,trào ngược dạ dày,trao nguoc da day,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
+HP:0031253,symptom,trào ngược a-xít dạ dày,trao nguoc a-xit da day,DeepSeek-V4-Flash,v1,2026-11-19T15:02:44+00:00,approved,User approved in chat on 2026-11-20,SRC:HPO,auto_extracted
