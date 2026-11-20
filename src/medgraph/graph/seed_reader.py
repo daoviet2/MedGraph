@@ -247,7 +247,11 @@ def _row_to_superseded_by(row: dict[str, str]) -> SupersededByEdge:
     return SupersededByEdge(**kwargs)
 
 
-def read_seed(seed_dir: Path | str, only: list[str] | None = None) -> SeedBundle:
+def read_seed(
+    seed_dir: Path | str,
+    only: list[str] | None = None,
+    aliases_dir: Path | str | None = None,
+) -> SeedBundle:
     """Đọc dữ liệu seed từ thư mục và nạp vào SeedBundle.
 
     Args:
@@ -300,4 +304,9 @@ def read_seed(seed_dir: Path | str, only: list[str] | None = None) -> SeedBundle
             rows = _read_csv_rows(path)
             bundle_dict[key] = [parser(r) for r in rows]
 
-    return SeedBundle(**bundle_dict)
+    bundle = SeedBundle(**bundle_dict)
+    if aliases_dir is not None:
+        from medgraph.graph.alias_catalog import attach_approved_aliases
+
+        return attach_approved_aliases(bundle, Path(aliases_dir))
+    return bundle

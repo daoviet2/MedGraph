@@ -36,6 +36,12 @@ def parse_args() -> argparse.Namespace:
         help="Đường dẫn thư mục chứa dữ liệu seed (mặc định nạp từ cấu hình Settings).",
     )
     parser.add_argument(
+        "--aliases-dir",
+        type=Path,
+        default=None,
+        help="Thư mục alias đã duyệt; mặc định dùng cấu hình khi nạp seed chính.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Chỉ kiểm tra validate và phân nhóm nguồn, không kết nối và không ghi vào Neo4j.",
@@ -68,7 +74,8 @@ def main() -> int:
 
     # 1. Đọc dữ liệu seed
     try:
-        bundle = read_seed(seed_path)
+        aliases_path = args.aliases_dir or (settings.aliases_dir if args.seed_dir is None else None)
+        bundle = read_seed(seed_path, aliases_dir=aliases_path)
     except Exception as exc:
         print(f"LỖI khi đọc dữ liệu seed: {exc}", file=sys.stderr)
         return 1

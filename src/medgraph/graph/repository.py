@@ -18,6 +18,7 @@ from typing import Any, Protocol, TypeVar
 from neo4j import Driver, Transaction
 
 from medgraph.graph.schema import NodeLabel, RelType
+from medgraph.models.aliases import normalize_alias
 from medgraph.models.graph_records import (
     ConfirmedByEdge,
     DifferentialOfEdge,
@@ -121,6 +122,28 @@ class Neo4jGraphRepository:
             with self.transaction() as new_tx:
                 new_tx.run(query, batch=batch)
 
+    def search_symptom_alias(self, phrase: str, tx: Transaction | None = None) -> list[str]:
+        """Tra fulltext symptom bằng dạng không dấu để kiểm tra alias đã nạp."""
+        query = """
+        CALL db.index.fulltext.queryNodes($index_name, $phrase)
+        YIELD node, score
+        WHERE node:Symptom
+        WITH node, score, $normalized IN coalesce(node.aliases_norm, []) AS exact_alias
+        RETURN node.id AS id
+        ORDER BY exact_alias DESC, score DESC
+        """
+        normalized = normalize_alias(phrase)
+        escaped = normalized.replace("\\", "\\\\").replace('"', '\\"')
+        params = {
+            "index_name": "symptom_alias",
+            "phrase": f'"{escaped}"',
+            "normalized": normalized,
+        }
+        if tx is not None:
+            return [record["id"] for record in tx.run(query, **params)]
+        with self.driver.session() as session:
+            return [record["id"] for record in session.run(query, **params)]
+
     # -------------------------------------------------------------------------
     # Node Upserts (MERGE theo id, SET cập nhật thuộc tính)
     # -------------------------------------------------------------------------
@@ -185,7 +208,7 @@ class Neo4jGraphRepository:
                     "name_en": d.name_en,
                     "name_vi": d.name_vi,
                     "aliases_vi": d.aliases_vi,
-                    "aliases_norm": [a.lower() for a in d.aliases_vi],
+                    "aliases_norm": [normalize_alias(a) for a in d.aliases_vi],
                     "category": d.category,
                     "urgency_default": d.urgency_default.value,
                     "danger_level": d.danger_level,
@@ -217,7 +240,7 @@ class Neo4jGraphRepository:
                     "name_en": s.name_en,
                     "name_vi": s.name_vi,
                     "aliases_vi": s.aliases_vi,
-                    "aliases_norm": [a.lower() for a in s.aliases_vi],
+                    "aliases_norm": [normalize_alias(a) for a in s.aliases_vi],
                     "is_red_flag": s.is_red_flag,
                     "review_status": s.review_status.value,
                 }

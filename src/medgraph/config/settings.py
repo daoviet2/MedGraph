@@ -59,6 +59,7 @@ class Settings(BaseSettings):
     alias_batch_size: int = Field(default=2, ge=1)
     alias_max_tokens: int = Field(default=2048, ge=1)
     alias_timeout_seconds: float = Field(default=120.0, gt=0)
+    alias_min_approved: int = Field(default=300, ge=1)
 
     # Đường dẫn thư mục dữ liệu & cache (thường nạp từ settings.yaml)
     data_dir: Path = Field(

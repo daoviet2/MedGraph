@@ -52,8 +52,8 @@ class AliasEntity(BaseModel):
     existing_aliases: tuple[str, ...]
 
 
-class AliasDraftRow(BaseModel):
-    """Dòng CSV nháp: luôn chờ rà soát và giữ nguồn của thực thể gốc."""
+class AliasReviewRow(BaseModel):
+    """Một quyết định rà soát alias, luôn giữ nguồn và provenance ban đầu."""
 
     model_config = ConfigDict(frozen=True, extra="forbid")
 
@@ -64,10 +64,16 @@ class AliasDraftRow(BaseModel):
     model: str
     prompt_version: str
     generated_at: str
-    review_status: Literal["pending"] = "pending"
+    review_status: Literal["pending", "approved", "rejected"]
     reviewer_note: str = ""
     source_id: str
     provenance: Literal["auto_extracted"] = "auto_extracted"
+
+
+class AliasDraftRow(AliasReviewRow):
+    """Dòng do bộ sinh tạo ra; chưa được người dùng rà soát."""
+
+    review_status: Literal["pending"] = "pending"
 
 
 class AliasBuildReport(BaseModel):
@@ -78,3 +84,16 @@ class AliasBuildReport(BaseModel):
     entities_processed: int = Field(ge=0)
     aliases_proposed: int = Field(ge=0)
     aliases_added: int = Field(ge=0)
+
+
+class AliasMergeReport(BaseModel):
+    """Số dòng theo quyết định rà soát và tổng alias được duyệt."""
+
+    model_config = ConfigDict(frozen=True, extra="forbid")
+
+    approved: int = Field(ge=0)
+    rejected: int = Field(ge=0)
+    pending: int = Field(ge=0)
+    seed_approved: int = Field(ge=0)
+    exported: int = Field(ge=0)
+    total_approved: int = Field(ge=0)
