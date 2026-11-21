@@ -38,6 +38,7 @@ class SourceGroup:
 
     source_id: str
     source_doc: SourceDocRecord | None = None
+    referenced_source_docs: list[SourceDocRecord] = field(default_factory=list)
     diseases: list[DiseaseRecord] = field(default_factory=list)
     symptoms: list[SymptomRecord] = field(default_factory=list)
     risk_factors: list[RiskFactorRecord] = field(default_factory=list)
@@ -84,6 +85,7 @@ def group_by_source(bundle: SeedBundle) -> dict[str, SourceGroup]:
 
     # Từ điển tra cứu nhanh cho các thực thể theo id
     disease_map = {d.id: d for d in bundle.diseases}
+    source_map = {doc.id: doc for doc in bundle.sources}
     symptom_map = {s.id: s for s in bundle.symptoms}
     risk_map = {r.id: r for r in bundle.risk_factors}
     lab_map = {lt.id: lt for lt in bundle.lab_tests}
@@ -148,6 +150,10 @@ def group_by_source(bundle: SeedBundle) -> dict[str, SourceGroup]:
     for e in bundle.documented_in:
         grp = ensure_group(e.source_id)
         grp.documented_in.append(e)
+        referenced_doc = source_map.get(e.source_doc_id)
+        if referenced_doc is not None and e.source_doc_id != grp.source_id:
+            if referenced_doc not in grp.referenced_source_docs:
+                grp.referenced_source_docs.append(referenced_doc)
         if e.disease_id in disease_map:
             add_node_to_group(e.source_id, e.disease_id, "disease", disease_map[e.disease_id])
 
@@ -162,6 +168,11 @@ def group_by_source(bundle: SeedBundle) -> dict[str, SourceGroup]:
     for e in bundle.superseded_by:
         grp = ensure_group(e.source_id)
         grp.superseded_by.append(e)
+        for source_id in (e.old_id, e.new_id):
+            referenced_doc = source_map.get(source_id)
+            if referenced_doc is not None and source_id != grp.source_id:
+                if referenced_doc not in grp.referenced_source_docs:
+                    grp.referenced_source_docs.append(referenced_doc)
 
     # 3. Gom các node còn lại chưa xuất hiện trong bất kỳ cạnh nào
     fallback_sid = bundle.sources[0].id if bundle.sources else "DEFAULT_SOURCE"
@@ -217,8 +228,11 @@ class GraphLoader:
                     edges_cnt = 0
 
                     # 1. Nạp SourceDoc
-                    if grp.source_doc:
-                        nodes_cnt += self.repository.upsert_source_docs([grp.source_doc], tx=tx)
+                    source_docs = (
+                        [grp.source_doc] if grp.source_doc else []
+                    ) + grp.referenced_source_docs
+                    if source_docs:
+                        nodes_cnt += self.repository.upsert_source_docs(source_docs, tx=tx)
 
                     # 2. Nạp các Node thực thể
                     if grp.diseases:

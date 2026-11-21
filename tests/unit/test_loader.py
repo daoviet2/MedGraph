@@ -40,6 +40,7 @@ def test_group_by_source_groups_correctly(mini_bundle):
     assert byt_grp.source_doc.id == "SRC:BYT_2020"
     assert len(byt_grp.diseases) > 0
     assert len(byt_grp.indicates) > 0
+    assert {doc.id for doc in byt_grp.referenced_source_docs} == {"SRC:BYT_2015"}
 
     who_grp = groups["SRC:WHO_2022"]
     assert who_grp.source_doc is not None
