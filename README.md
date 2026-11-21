@@ -1,5 +1,7 @@
 # MedGraph
 
+[![CI](https://github.com/daoviet2/MedGraph/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/daoviet2/MedGraph/actions/workflows/ci.yml)
+
 > Hệ thống hỗ trợ phân tích triệu chứng hô hấp bằng GraphRAG (Knowledge Graph + RAG + LLM), ưu tiên tiếng Việt.
 
 ## Disclaimer y khoa
