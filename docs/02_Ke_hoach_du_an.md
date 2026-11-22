@@ -17,7 +17,7 @@
 | 2 | NLP và truy vấn | CLI nhập một câu, trả top-5 bệnh và danh sách cần loại trừ; Hybrid Linker có mở rộng is_a |
 | 3 | RAG, an toàn, validator | API /analyze đầy đủ: giải thích có trích dẫn kiểm chứng 2 lớp, từ chối, red-flag, luật số, nhóm nguy cơ cao |
 | 4 | Đánh giá | 3 gold set + safety set; bảng B0 đến B3, ablation, judge; CI eval gate |
-| 5 | Hoàn thiện | UI 3 tab, deploy, README có bảng năng lực và bằng chứng, video demo 2 phút |
+| 5 | Hoàn thiện | UI 3 tab chạy tại URL HTTPS công khai, README có link demo và bảng năng lực kèm bằng chứng, video demo 2 phút |
 | Mở rộng | Tùy chọn (tuần 6 / giai đoạn 2) | Câu hỏi gợi ý bằng information gain, myth-check, multi-hop có thuốc |
 
 
@@ -62,7 +62,11 @@
 
 - [ ] UI 3 tab: Phân tích triệu chứng, Tra cứu graph (full-text, không gọi LLM), Giải thích đường suy luận (subgraph).
 - [ ] Hiển thị hai danh sách (khả năng cao, cần loại trừ), nguồn trích dẫn, banner mức khẩn cấp.
-- [ ] Deploy, GIF/video 2 phút, README có **bảng năng lực và bằng chứng**.
+- [ ] Dựng dữ liệu demo trên Neo4j AuraDB bằng `scripts/build_graph.py`. Nạp các đoạn tài liệu được phép sử dụng và embedding vào Qdrant Cloud bằng pipeline Tuần 3.
+- [ ] Deploy FastAPI từ GitHub lên Render. Cấu hình URL và thông tin xác thực cho Neo4j, Qdrant và FPT AI Factory ở phía server. Kiểm tra `/health`, đo bộ nhớ và thời gian phản hồi của embedding trên môi trường deploy.
+- [ ] Deploy UI lên Streamlit Community Cloud và cấu hình URL FastAPI. Với bản demo công khai, cung cấp câu mẫu, giới hạn lượt gọi `/analyze` và giữ nội dung triệu chứng người dùng ngoài log.
+- [ ] Mở URL HTTPS từ trình duyệt ẩn danh để kiểm tra cả ba tab, một ca có trích dẫn và một ca cần hỏi lại. Ghi thời gian khởi động sau khi dịch vụ ngủ và cách khôi phục các kho dữ liệu nếu chọn gói miễn phí.
+- [ ] Đưa URL HTTPS đã kiểm tra vào README và CV. README có **bảng năng lực và bằng chứng** cùng GIF hoặc video demo 2 phút.
 - [ ] Mục "Hạn chế đã biết" và danh sách khoảng cách từ MVP đến production.
 
 ### Mở rộng (tuần 6 hoặc giai đoạn 2, tùy chọn)

@@ -67,7 +67,7 @@ Chỉ làm **nhóm bệnh hô hấp** (khoảng 30 đến 40 bệnh): viêm ph�
 | Truy xuất từ vựng | BM25 (rank_bm25) hoặc hybrid của Qdrant | Kết hợp với embedding cho linker và evidence |
 | Kiểm thử và CI | pytest, Neo4j service container, ruff, GitHub Actions | Eval gate: chặn merge nếu red-flag recall dưới 100% |
 | Hạ tầng | Docker Compose | Neo4j + Qdrant + API chạy một lệnh |
-| Deploy | Hugging Face Spaces / Render | Kèm video demo 2 phút |
+| Deploy | Streamlit Community Cloud + Render | Dùng Neo4j AuraDB và Qdrant Cloud. Xem [checklist Tuần 5](02_Ke_hoach_du_an.md#tuần-5-hoàn-thiện) |
 
 ## 7. Cấu trúc thư mục
 
