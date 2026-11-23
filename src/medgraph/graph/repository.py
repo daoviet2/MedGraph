@@ -34,6 +34,7 @@ from medgraph.models.graph_records import (
     SymptomRecord,
 )
 from medgraph.models.report import GraphHealthSnapshot, NamedCount
+from medgraph.models.schemas import EntityType
 
 logger = logging.getLogger(__name__)
 
@@ -143,6 +144,52 @@ class Neo4jGraphRepository:
             return [record["id"] for record in tx.run(query, **params)]
         with self.driver.session() as session:
             return [record["id"] for record in session.run(query, **params)]
+
+    def entries(self, entity_type: EntityType, tx: Transaction | None = None) -> list[Any]:
+        """Trả danh mục đã duyệt theo loại để linker tra cứu."""
+        from medgraph.models.linking import CatalogEntry
+
+        labels = {
+            EntityType.SYMPTOM: "Symptom",
+            EntityType.RISK: "RiskFactor",
+            EntityType.LAB: "LabTest",
+            EntityType.CONDITION: "Disease",
+        }
+        if entity_type not in labels:
+            return []
+        query = (
+            f"MATCH (n:{labels[entity_type]}) "
+            "WHERE n.review_status = 'approved' "
+            "RETURN n.id AS id, n.name_vi AS name_vi, "
+            "coalesce(n.aliases_vi, []) AS aliases_vi ORDER BY id"
+        )
+        if tx is not None:
+            rows = list(tx.run(query))
+        else:
+            with self.driver.session() as session:
+                rows = list(session.run(query))
+        return [
+            CatalogEntry(
+                id=row["id"],
+                type=entity_type,
+                name_vi=row["name_vi"],
+                aliases_vi=tuple(row["aliases_vi"]),
+            )
+            for row in rows
+        ]
+
+    def parents(self, symptom_id: str, tx: Transaction | None = None) -> list[tuple[str, int]]:
+        query = """
+        MATCH path = (s:Symptom {id: $symptom_id})-[:IS_A*1..2]->(p:Symptom)
+        RETURN p.id AS id, min(length(path)) AS hops
+        ORDER BY id
+        """
+        if tx is not None:
+            rows = list(tx.run(query, symptom_id=symptom_id))
+        else:
+            with self.driver.session() as session:
+                rows = list(session.run(query, symptom_id=symptom_id))
+        return [(row["id"], row["hops"]) for row in rows]
 
     # -------------------------------------------------------------------------
     # Node Upserts (MERGE theo id, SET cập nhật thuộc tính)

@@ -27,6 +27,9 @@ dev = [
     "pytest-cov>=4.0.0",
     "ruff>=0.3.0",
 ]
+embedding = [
+    "sentence-transformers>=3.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

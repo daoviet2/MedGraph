@@ -1,0 +1,4 @@
+linker:
+  bm25_min_score: 0.5
+  embedding_min_similarity: 0.78
+  embedding_model: BAAI/bge-m3
