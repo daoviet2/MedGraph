@@ -1,4 +1,4 @@
-"""Trình kiểm tra (validator) tính toàn vẹn của dữ liệu seed Knowledge Graph (F-011).
+"""Trình kiểm tra (validator) tính toàn vẹn của dữ liệu seed Knowledge Graph.
 
 Kiểm tra:
 - Trùng lặp ID trong từng loại thực thể (DUPLICATE_ID).

@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""CLI script áp dụng các ràng buộc và index từ schema.cypher lên Neo4j (F-007).
 
-Thực hiện idempotent: có thể chạy lại nhiều lần mà không gây lỗi hoặc trùng lặp schema.
-"""
+
+"""Thực hiện idempotent: có thể chạy lại nhiều lần mà không gây lỗi hoặc trùng lặp schema."""
 
 import sys
 

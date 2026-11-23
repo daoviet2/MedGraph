@@ -1,6 +1,6 @@
 """Hợp đồng dữ liệu cốt lõi cho pipeline và API của MedGraph.
 
-Đóng băng theo quy tắc R7 (AGENTS.md). Mọi module trao đổi qua các model Pydantic bất biến tại đây.
+Mọi module trao đổi qua các model Pydantic bất biến tại đây.
 """
 
 from enum import StrEnum

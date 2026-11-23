@@ -1,6 +1,6 @@
 """Hợp đồng đồ thị tri thức (Knowledge Graph Schema) cho MedGraph.
 
-Đóng băng theo quy tắc R7 (AGENTS.md). Định nghĩa hằng số nhãn Node, loại Relationship,
+ Định nghĩa hằng số nhãn Node, loại Relationship,
 phiên bản schema và ánh xạ từ EdgeRecord sang RelType.
 """
 

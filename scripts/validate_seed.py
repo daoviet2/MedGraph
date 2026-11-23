@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""CLI script kiểm tra tính hợp lệ và toàn vẹn của dữ liệu seed (F-011).
-
+"""
 Sử dụng:
     python scripts/validate_seed.py [--seed-dir PATH] [--only LIST] [--strict]
 

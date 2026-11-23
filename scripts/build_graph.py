@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""CLI script xây dựng Knowledge Graph hoàn chỉnh cho MedGraph (F-013).
 
-Quy trình thực hiện:
+"""Quy trình thực hiện:
 1. Đọc dữ liệu seed từ --seed-dir.
 2. Kiểm tra toàn vẹn tham chiếu (validate_seed); nếu có lỗi ERROR -> dừng ngay lập tức.
 3. Nếu cờ --dry-run được bật: in thống kê nhóm và kết thúc mà không kết nối Neo4j.
